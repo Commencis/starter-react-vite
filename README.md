@@ -1,14 +1,44 @@
-# Commencis Starter - React Vite
+<picture>
+  <source media="(max-width: 400px)" srcset="./assets/starter-react-vite-logo-mobile.png">
+  <img src="./assets/starter-react-vite-logo.png" alt="Commencis JS Toolkit Logo">
+</picture>
 
-This project is a proof-of-concept (POC) that demonstrates the usage of React + Vite alongside the latest tools for building production-grade applications. The main goal of this project is to showcase the integration and utilization of these technologies.
+<h1 align="center">
+  Commencis Starter - React Vite
+
+[![License: MIT](https://img.shields.io/badge/License-Apache2.0-300E77.svg)](LICENSE)
+
+</h1>
+
+Commencis Starter - React Vite provides a streamlined foundation for building modern React applications with Vite. Designed to maximize development speed and efficiency, this template allows for quick setup and seamless scaling. Its flexible structure supports diverse project requirements right out of the box.
 
 ## Table of Contents
 
+- [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Development](#getting-started)
-- [Tech Stack](#tech-stack)
+
+## Tech Stack
+
+- ⚡️ Vite
+- 🌀 React18
+- 🎨 SCSS Modules / Abstractions
+- ⚙️ Environment / Config Management
+- 🌐 i18next
+- 🌍 httpClient
+- 🛠️ Providers / Services / API
+- 📁 Module / Page Structure
+- 🔄 Redux Toolkit
+- 🛠️ RTK Query
+- 🛣️ React Router 6
+- 🔍 Vitest
+- 🚦 Mock Service Worker
+- 📚 Storybook
+- 🖥️ Node20
+- 📦 PNPM
+- ✨ Commencis JS Toolkit Integrations
 
 ## Getting Started
 
@@ -16,11 +46,11 @@ This project is a proof-of-concept (POC) that demonstrates the usage of React + 
 
 #### Node.js
 
-Before you begin, ensure you have `node: >= 20.14` installed on your system.
+Before you begin, ensure you have `node: >= 20.18` installed on your system.
 
 #### pnpm
 
-This project uses `pnpm: >= 9.6.0` as the package manager. You can install it either by activating with `corepack` which is the recommended way:
+This project uses `pnpm: >= 9.12.3` as the package manager. You can install it either by activating with `corepack` which is the recommended way:
 
 ```bash
 corepack prepare pnpm@latest --activate
