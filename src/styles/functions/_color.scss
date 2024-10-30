@@ -1,0 +1,22 @@
+@use 'sass:map';
+@use '../abstracts/colors' as colors;
+
+@function color($color, $tone) {
+
+  $color-group: map.get(colors.$palette, $color);
+
+  @if $color-group {
+
+    $result: map.get($color-group, $tone);
+
+    @if $result {
+      @return $result;
+    }
+
+    @warn 'Unknown tone `#{$tone}` in color `#{$color}`. Available tones: #{map.keys($color-group)}';
+    @return null;
+  }
+
+  @warn 'Unknown color `#{$color}` in palette. Available colors: #{map.keys(variables.$color-palette)}';
+  @return null;
+}

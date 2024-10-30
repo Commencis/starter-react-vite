@@ -1,0 +1,5 @@
+@use '../mixins/font-face' as *;
+
+@include font-face('Lato-Regular', '/src/assets/fonts/Lato-Regular.ttf', 'ttf');
+
+@include font-face('Lato-Bold', '/src/assets/fonts/Lato-Bold.ttf', 'ttf');

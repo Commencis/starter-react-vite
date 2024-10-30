@@ -1,0 +1,11 @@
+@use '../functions/color' as *;
+
+/* Typography Variables */
+
+$font-primary-regular: 'Lato-Regular', sans-serif;
+$font-primary-bold: 'Lato-Bold', sans-serif;
+
+/* Color Variables */
+
+$text-color: color(neutral, 700);
+$text-color-light: color(neutral, 500);
