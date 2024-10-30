@@ -6,7 +6,7 @@
 <h1 align="center">
   Commencis Starter - React Vite
 
-[![License: MIT](https://img.shields.io/badge/License-Apache2.0-300E77.svg)](LICENSE)
+[![License: Apache](https://img.shields.io/badge/License-Apache2.0-300E77.svg)](LICENSE)
 
 </h1>
 
