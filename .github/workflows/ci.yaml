@@ -9,6 +9,7 @@ concurrency:
 
 jobs:
   ci:
+    name: Validate ${{ matrix.job-name }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
