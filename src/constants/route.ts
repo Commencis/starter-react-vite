@@ -1,4 +1,4 @@
 export const ROUTES = {
   HOME: '/',
-  WILDCARD: '*',
+  UNKNOWN: '*',
 } as const;

@@ -1,4 +1,4 @@
-import { createContext, ReactElement, useState } from 'react';
+import { createContext, ReactElement, useContext, useState } from 'react';
 
 import { DEFAULT_LOCALE, DEFAULT_THEME } from '@/constants';
 
@@ -26,7 +26,7 @@ export function PreferencesProvider({
     initialPreferences ?? defaultPreferences
   );
 
-  const updatePreferences = (newPreferences: Partial<Preferences>) => {
+  const updatePreferences = (newPreferences: Partial<Preferences>): void => {
     setPreferences((prevPreferences) => ({
       ...prevPreferences,
       ...newPreferences,
@@ -38,4 +38,12 @@ export function PreferencesProvider({
       {children}
     </PreferencesContext.Provider>
   );
+}
+
+export function usePreferences(): PreferencesContextType {
+  const context = useContext(PreferencesContext);
+  if (!context) {
+    throw new Error('usePreferences must be used within a PreferencesProvider');
+  }
+  return context;
 }

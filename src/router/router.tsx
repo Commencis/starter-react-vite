@@ -1,9 +1,18 @@
-import { createBrowserRouter } from 'react-router-dom';
+import {
+  createBrowserRouter,
+  LazyRouteFunction,
+  RouteObject,
+} from 'react-router-dom';
 
 import { ROUTES } from '@/constants';
 import { NotFoundPage } from '@/pages/not-found/not-found.page';
 
 import { PrivateRoute } from './PrivateRoute/PrivateRoute';
+
+const homePageLazyLoader: LazyRouteFunction<RouteObject> = async () => {
+  const { HomePage } = await import('@/pages/homepage/home.page');
+  return { loader: HomePage.loader, Component: HomePage };
+};
 
 export const router = createBrowserRouter([
   {
@@ -12,15 +21,12 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        async lazy() {
-          const { HomePage } = await import('@/pages/homepage/home.page');
-          return { loader: HomePage.loader, Component: HomePage };
-        },
+        lazy: homePageLazyLoader,
       },
     ],
   },
   {
-    path: ROUTES.WILDCARD,
+    path: ROUTES.UNKNOWN,
     element: <NotFoundPage />,
   },
 ]);

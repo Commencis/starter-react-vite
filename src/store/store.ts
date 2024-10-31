@@ -12,6 +12,7 @@ const rootReducer = combineSlices(authSlice);
 
 export type RootState = ReturnType<typeof rootReducer>;
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 export const createStore = (preloadedState?: Partial<RootState>) => {
   const store = configureStore({
     reducer: rootReducer,

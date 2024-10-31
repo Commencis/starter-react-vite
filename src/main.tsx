@@ -9,7 +9,7 @@ import '@/styles/main.scss';
 
 const { isDevelopment } = getConfig();
 
-const prepare = async () => {
+const prepare = async (): Promise<void> => {
   if (isDevelopment) {
     const { worker } = await import('./lib/mocks/browser');
     worker.start({ onUnhandledRequest: 'bypass' });

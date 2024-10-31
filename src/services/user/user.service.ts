@@ -6,7 +6,7 @@ export type UserResponse = {
 };
 
 class UserService {
-  public async fetchUserById(userId: string) {
+  public async fetchUserById(userId: string): Promise<UserResponse> {
     try {
       const response = await makeRequest<UserResponse, { userId: string }>({
         method: 'POST',
