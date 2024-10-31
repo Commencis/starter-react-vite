@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  pull_request: ~
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    strategy:
+      matrix:
+        job-name: [Lint, Test, Build]
+        run-command: [pnpm run lint, pnpm run test, pnpm run build]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup
+        uses: 'commencis/js-toolkit/.github/actions/setup@main'
+
+      - name: ${{ matrix.job-name }}
+        run: ${{ matrix.run-command }}
