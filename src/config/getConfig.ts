@@ -26,7 +26,7 @@ export const getConfig = (): Config => {
       version,
       buildNumber,
       environment,
-      baseApiUrl: import.meta.env.VITE_BASE_API_URL,
+      baseApiUrl: import.meta.env.VITE_BASE_API_URL ?? '',
       isDevelopment: environment === ENVIRONMENT.DEVELOPMENT,
       isTest: environment === ENVIRONMENT.TEST,
       isUat: environment === ENVIRONMENT.UAT,
