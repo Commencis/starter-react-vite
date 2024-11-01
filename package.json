@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "engines": {
-    "node": ">= 20.18"
+    "node": ">=20.18"
   },
   "packageManager": "pnpm@9.12.3",
   "scripts": {
@@ -29,7 +29,9 @@
     "test": "vitest run",
     "test:watch": "vitest watch",
     "test:coverage": "vitest run --coverage",
-    "ci:check": "pnpm run lint",
+    "changeset": "changeset",
+    "version": "changeset version && pnpm install --no-frozen-lockfile",
+    "ci:review": "pnpm run lint && pnpm run test",
     "generate:worker": "pnpm exec msw init ./public --save",
     "prepare": "husky",
     "precommit": "lint-staged"
@@ -49,6 +51,7 @@
     "zod": "3.23.8"
   },
   "devDependencies": {
+    "@changesets/cli": "2.27.9",
     "@commencis/commitlint-config": "1.1.0",
     "@commencis/eslint-config": "1.2.1",
     "@commencis/eslint-plugin": "1.1.2",
