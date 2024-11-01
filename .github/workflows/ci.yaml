@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup
-        uses: 'commencis/js-toolkit/.github/actions/setup@main'
+        uses: commencis/js-toolkit/.github/actions/setup@main
 
       - name: Run ${{ matrix.job }}
         run: pnpm run ${{ matrix.job }}
