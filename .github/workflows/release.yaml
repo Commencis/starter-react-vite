@@ -33,8 +33,9 @@ jobs:
       - name: Create Release Pull Request
         uses: changesets/action@v1
         with:
-          version: pnpm run version
-          commit: 'ci(release): create new release'
           title: 'ci(release): create new release'
+          commit: 'ci(release): create new release'
+          version: pnpm run version
+          publish: npx @changesets/cli tag
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
