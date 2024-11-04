@@ -11,7 +11,7 @@ coverage
 # production
 build
 dist
-dist-zip
+storybook-static
 
 # debug
 logs
