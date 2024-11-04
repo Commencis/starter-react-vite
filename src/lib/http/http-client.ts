@@ -8,11 +8,10 @@ import axios, {
   InternalAxiosRequestConfig,
 } from 'axios';
 
-import { getConfig } from '@/config';
-
+import { HEADER_KEY, HEADERS } from '@/constants';
 import { HttpHeader, HttpMethod } from '@/types';
 
-import { HEADER_KEY, HEADERS } from '@/constants';
+import { getConfig } from '@/config';
 
 const { baseApiUrl, isDevelopment } = getConfig();
 

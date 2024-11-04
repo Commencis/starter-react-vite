@@ -1,6 +1,5 @@
-import { Environment } from '@/types';
-
 import { ENVIRONMENT } from '@/constants';
+import { Environment } from '@/types';
 
 import { getCurrentEnvironment } from './getCurrentEnvironment';
 import { getPackageInfo } from './getPackageInfo';

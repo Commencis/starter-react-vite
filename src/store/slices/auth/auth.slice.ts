@@ -1,5 +1,7 @@
+import { createAppSlice } from '@/utils';
+
 import { authService, LoginCredentials } from '@/services';
-import { createAppSlice, fetchUserByIdAsync } from '@/store';
+import { fetchUserByIdAsync } from '@/store';
 
 export type AuthSliceState = {
   userId: string;

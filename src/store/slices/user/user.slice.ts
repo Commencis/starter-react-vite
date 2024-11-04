@@ -1,4 +1,5 @@
-import { createAppSlice } from '../../createAppSlice';
+import { createAppSlice } from '@/utils';
+
 import { userApi } from './user.api';
 
 export type User = {

@@ -1,7 +1,8 @@
-import path from 'path';
+import path from 'node:path';
+
+import react from '@vitejs/plugin-react-swc';
 import { defineConfig, loadEnv, UserConfig } from 'vite';
 import svgr from 'vite-plugin-svgr';
-import react from '@vitejs/plugin-react-swc';
 
 export default ({ mode }): UserConfig => {
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
@@ -40,6 +41,7 @@ export default ({ mode }): UserConfig => {
     css: {
       preprocessorOptions: {
         scss: {
+          api: 'modern-compiler',
           additionalData: `@use "@/styles/globals" as *;`,
         },
       },

@@ -1,16 +1,16 @@
-import { createInstance, i18n as i18nType } from 'i18next';
-import resourcesToBackend from 'i18next-resources-to-backend';
 import { initReactI18next } from 'react-i18next';
 
-import { getConfig } from '@/config';
-
-import { Locale, LocalizationNamespace } from '@/types';
+import { createInstance, i18n as i18nType } from 'i18next';
+import resourcesToBackend from 'i18next-resources-to-backend';
 
 import {
   DEFAULT_LOCALE,
   LOCALIZATION_NAMESPACES,
   SUPPORTED_LOCALES,
 } from '@/constants';
+import { Locale, LocalizationNamespace } from '@/types';
+
+import { getConfig } from '@/config';
 
 export const createI18nInstance = async (): Promise<i18nType> => {
   const { isDevelopment } = getConfig();

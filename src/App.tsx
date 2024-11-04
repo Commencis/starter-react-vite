@@ -3,11 +3,13 @@ import { I18nextProvider } from 'react-i18next';
 import { Provider as StoreProvider } from 'react-redux';
 import { RouterProvider } from 'react-router-dom';
 
-import { Loading } from '@/components/common';
 import { i18n } from '@/lib';
 import { ErrorBoundary, PreferencesProvider } from '@/providers';
+
 import { router } from '@/router';
 import { store } from '@/store';
+
+import { Loading } from '@/components/common';
 
 export default function App(): ReactElement {
   return (
