@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 import { ROUTES } from '@/constants';
+
 import { NotFoundPage } from '@/pages/not-found/not-found.page';
 
 import { PrivateRoute } from './PrivateRoute/PrivateRoute';
