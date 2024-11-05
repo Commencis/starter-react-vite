@@ -17,6 +17,6 @@
     @return null;
   }
 
-  @warn 'Unknown color `#{$color}` in palette. Available colors: #{map.keys(variables.$color-palette)}';
+  @warn 'Unknown color `#{$color}` in palette. Available colors: #{map.keys(colors.$palette)}';
   @return null;
 }
