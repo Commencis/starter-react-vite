@@ -1,5 +1,11 @@
 # @commencis/starter-react-vite
 
+## 1.1.1
+
+### Patch Changes
+
+- fix: color getter function error ([#17](https://github.com/Commencis/starter-react-vite/pull/17))
+
 ## 1.1.0
 
 ### Minor Changes
