@@ -17,7 +17,6 @@ export function Icon({
   height = '32px',
   ...props
 }: IconProps): ReactElement {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { ref: _, ...svgProps } = props;
   const IconComponent = useMemo(() => lazyLoadIcon(name), [name]);
 
