@@ -61,8 +61,8 @@ importers:
         specifier: 1.1.0
         version: 1.1.0
       '@commencis/stylelint-config':
-        specifier: 1.1.1
-        version: 1.1.1(postcss-html@1.7.0)(postcss@8.4.47)(stylelint@16.10.0(typescript@5.6.3))
+        specifier: 1.2.0
+        version: 1.2.0(postcss-html@1.7.0)(postcss@8.4.47)(stylelint@16.10.0(typescript@5.6.3))
       '@storybook/addon-a11y':
         specifier: 8.4.2
         version: 8.4.2(storybook@8.4.2(prettier@3.3.3))
@@ -326,8 +326,8 @@ packages:
   '@commencis/prettier-config@1.1.0':
     resolution: {integrity: sha512-ikGRDayHM42TBYdDioid26iULp0RYY6ZLAyYrnRg3dE869R+M4BB5zjiwR4X+N8TN1fCODfw83d96GmHIEcH1Q==}
 
-  '@commencis/stylelint-config@1.1.1':
-    resolution: {integrity: sha512-e6ulI2I+QlxtUjV56KqDZuYN7niX7yvwPYur2/GQ/PzsEmDLROYea0IZY9p5vWGeY2CVI20pd57JbpIOFYI6fw==}
+  '@commencis/stylelint-config@1.2.0':
+    resolution: {integrity: sha512-56Z+HtV6TVDGUdAfNaY9N1pkjDK/OgLnkX0bRTMIOp3Pwt2UyNvcSvjptsyc2IHOllBFSJOXL1R/mBY3w/H/mg==}
     peerDependencies:
       stylelint: '>= 16.8'
 
@@ -3260,8 +3260,8 @@ packages:
     peerDependencies:
       postcss: ^8.4.20
 
-  postcss-styled-syntax@0.6.4:
-    resolution: {integrity: sha512-uWiLn+9rKgIghUYmTHvXMR6MnyPULMe9Gv3bV537Fg4FH6CA6cn21WMjKss2Qb98LUhT847tKfnRGG3FhSOgUQ==}
+  postcss-styled-syntax@0.7.0:
+    resolution: {integrity: sha512-OeStzPkHJ1/WDGRKm/JuVK8UdJbjt3U7AFC+zUc9omJ79SaXSxWoy+PXxJz7t8vOO8HcUgCLndNEQfLvZ74TuQ==}
     engines: {node: '>=14.17'}
     peerDependencies:
       postcss: ^8.4.21
@@ -4615,10 +4615,10 @@ snapshots:
 
   '@commencis/prettier-config@1.1.0': {}
 
-  '@commencis/stylelint-config@1.1.1(postcss-html@1.7.0)(postcss@8.4.47)(stylelint@16.10.0(typescript@5.6.3))':
+  '@commencis/stylelint-config@1.2.0(postcss-html@1.7.0)(postcss@8.4.47)(stylelint@16.10.0(typescript@5.6.3))':
     dependencies:
       '@stylistic/stylelint-config': 2.0.0(stylelint@16.10.0(typescript@5.6.3))
-      postcss-styled-syntax: 0.6.4(postcss@8.4.47)
+      postcss-styled-syntax: 0.7.0(postcss@8.4.47)
       stylelint: 16.10.0(typescript@5.6.3)
       stylelint-config-html: 1.1.0(postcss-html@1.7.0)(stylelint@16.10.0(typescript@5.6.3))
       stylelint-config-prettier-scss: 1.0.0(stylelint@16.10.0(typescript@5.6.3))
@@ -7656,7 +7656,7 @@ snapshots:
     dependencies:
       postcss: 8.4.47
 
-  postcss-styled-syntax@0.6.4(postcss@8.4.47):
+  postcss-styled-syntax@0.7.0(postcss@8.4.47):
     dependencies:
       postcss: 8.4.47
       typescript: 5.6.3
