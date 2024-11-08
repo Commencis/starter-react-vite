@@ -1,10 +1,10 @@
+/// <reference types="./svg.d.ts" />
 /// <reference types="vite/client" />
-/// <reference types="vite-plugin-svgr/client"/>
-/// <reference types="vitest" />
 
 interface ImportMetaEnv {
-  readonly VITE_API_URL: string;
+  readonly VITE_BASE_API_URL: string;
   readonly VITE_PORT: string;
+  readonly MODE: string;
 }
 
 interface ImportMeta {
