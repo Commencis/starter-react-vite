@@ -1,7 +1,6 @@
 import { ReactElement } from 'react';
 
 import { MainLayout } from '@/layouts';
-
 import { Home } from '@/modules/home';
 
 async function loader(): Promise<unknown> {
