@@ -1,5 +1,39 @@
 # @commencis/starter-react-vite
 
+## 1.2.0
+
+### Minor Changes
+
+- feature: `<Icon />` component and implementations ([#22](https://github.com/Commencis/starter-react-vite/pull/22))
+
+### Patch Changes
+
+- comply new eslint rules ([#20](https://github.com/Commencis/starter-react-vite/pull/20))
+
+- update dependency: @commencis/eslint-plugin@1.1.3 ([#21](https://github.com/Commencis/starter-react-vite/pull/21))
+
+- update dependency: msw@2.6.2 ([#25](https://github.com/Commencis/starter-react-vite/pull/25))
+
+  - also fixes cookie vulnerabilities
+
+- fix: ImportMeta types ([#22](https://github.com/Commencis/starter-react-vite/pull/22))
+
+- update dependency: @commencis/stylelint-config@1.2.0 ([#24](https://github.com/Commencis/starter-react-vite/pull/24))
+
+- update dependency: react-i18next@15.1.1 ([#27](https://github.com/Commencis/starter-react-vite/pull/27))
+
+- update dependency: @types/node@22.9.0 ([#30](https://github.com/Commencis/starter-react-vite/pull/30))
+
+- update dependency: i18next@23.16.5 ([#26](https://github.com/Commencis/starter-react-vite/pull/26))
+
+- update dependency: @commencis/eslint-config@1.4.3 ([#20](https://github.com/Commencis/starter-react-vite/pull/20))
+
+- update dependency: react-hook-form@7.53.2 ([#29](https://github.com/Commencis/starter-react-vite/pull/29))
+
+- update dependency: storybook@8.4.2 ([#19](https://github.com/Commencis/starter-react-vite/pull/19))
+
+- update dependency: react-router-dom@6.28.0 ([#28](https://github.com/Commencis/starter-react-vite/pull/28))
+
 ## 1.1.1
 
 ### Patch Changes
