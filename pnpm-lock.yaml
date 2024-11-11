@@ -119,7 +119,7 @@ importers:
         version: 3.7.1(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6))
       '@vitest/coverage-v8':
         specifier: 2.1.4
-        version: 2.1.4(vitest@2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.2(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6))
+        version: 2.1.4(vitest@2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6))
       commitlint:
         specifier: 19.5.0
         version: 19.5.0(@types/node@22.9.0)(typescript@5.6.3)
@@ -136,8 +136,8 @@ importers:
         specifier: 15.2.10
         version: 15.2.10
       msw:
-        specifier: 2.6.2
-        version: 2.6.2(@types/node@22.9.0)(typescript@5.6.3)
+        specifier: 2.6.4
+        version: 2.6.4(@types/node@22.9.0)(typescript@5.6.3)
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -161,7 +161,7 @@ importers:
         version: 4.3.0(rollup@4.25.0)(typescript@5.6.3)(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6))
       vitest:
         specifier: 2.1.4
-        version: 2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.2(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6)
+        version: 2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6)
 
 packages:
 
@@ -2996,8 +2996,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  msw@2.6.2:
-    resolution: {integrity: sha512-RdRgPvjfuzMIACkWv7VOVAeSRYMU3ofokLv1w0RsbFX960qnj/tFEyOFXY0G2GTUd9trA6rHuHciM/FKpBp6/A==}
+  msw@2.6.4:
+    resolution: {integrity: sha512-Pm4LmWQeytDsNCR+A7gt39XAdtH6zQb6jnIKRig0FlvYOn8eksn3s1nXxUfz5KYUjbckof7Z4p2ewzgffPoCbg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -5743,7 +5743,7 @@ snapshots:
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@vitest/coverage-v8@2.1.4(vitest@2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.2(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6))':
+  '@vitest/coverage-v8@2.1.4(vitest@2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -5757,7 +5757,7 @@ snapshots:
       std-env: 3.8.0
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.2(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6)
+      vitest: 2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -5775,13 +5775,13 @@ snapshots:
       chai: 5.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.4(msw@2.6.2(@types/node@22.9.0)(typescript@5.6.3))(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6))':
+  '@vitest/mocker@2.1.4(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6))':
     dependencies:
       '@vitest/spy': 2.1.4
       estree-walker: 3.0.3
       magic-string: 0.30.12
     optionalDependencies:
-      msw: 2.6.2(@types/node@22.9.0)(typescript@5.6.3)
+      msw: 2.6.4(@types/node@22.9.0)(typescript@5.6.3)
       vite: 5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6)
 
   '@vitest/pretty-format@2.0.5':
@@ -7418,7 +7418,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msw@2.6.2(@types/node@22.9.0)(typescript@5.6.3):
+  msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3):
     dependencies:
       '@bundled-es-modules/cookie': 2.0.1
       '@bundled-es-modules/statuses': 1.0.1
@@ -8543,10 +8543,10 @@ snapshots:
       fsevents: 2.3.3
       sass-embedded: 1.80.6
 
-  vitest@2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.2(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6):
+  vitest@2.1.4(@types/node@22.9.0)(jsdom@25.0.1)(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(sass-embedded@1.80.6):
     dependencies:
       '@vitest/expect': 2.1.4
-      '@vitest/mocker': 2.1.4(msw@2.6.2(@types/node@22.9.0)(typescript@5.6.3))(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6))
+      '@vitest/mocker': 2.1.4(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6))
       '@vitest/pretty-format': 2.1.4
       '@vitest/runner': 2.1.4
       '@vitest/snapshot': 2.1.4
