@@ -2,19 +2,19 @@ import { ReactElement, Suspense, useMemo } from 'react';
 
 import { SVGComponentProps } from '@/types';
 
-import { IconName } from './Icon.types';
+import { IconName, IconSize } from './Icon.types';
 import { lazyLoadIcon } from './Icon.utils';
 
 export type IconProps = {
   name: IconName;
+  size?: IconSize;
   color?: string;
 } & Omit<SVGComponentProps, 'fill'>;
 
 export function Icon({
   name,
   color,
-  width = '32px',
-  height = '32px',
+  size = 32,
   ...props
 }: IconProps): ReactElement {
   const { ref: _, ...svgProps } = props;
@@ -22,7 +22,12 @@ export function Icon({
 
   return (
     <Suspense fallback={null}>
-      <IconComponent width={width} height={height} fill={color} {...svgProps} />
+      <IconComponent
+        width={`${size}px`}
+        height={`${size}px`}
+        fill={color}
+        {...svgProps}
+      />
     </Suspense>
   );
 }

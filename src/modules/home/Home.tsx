@@ -13,7 +13,7 @@ export function Home(): ReactElement {
     <div>
       <span>
         <h1>{t('starterName')}</h1>
-        <Icon name="chevron-down" />
+        <Icon name="chevron-down" size={24} />
       </span>
       <p>{`${t('home:title')} - ${t('version')}: ${version}`}</p>
     </div>
