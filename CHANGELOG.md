@@ -1,5 +1,11 @@
 # @commencis/starter-react-vite
 
+## 1.2.2
+
+### Patch Changes
+
+- omit width & height from IconProps ([#35](https://github.com/Commencis/starter-react-vite/pull/35))
+
 ## 1.2.1
 
 ### Patch Changes
