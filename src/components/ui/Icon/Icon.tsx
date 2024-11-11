@@ -9,7 +9,7 @@ export type IconProps = {
   name: IconName;
   size?: IconSize;
   color?: string;
-} & Omit<SVGComponentProps, 'fill'>;
+} & Omit<SVGComponentProps, 'fill' | 'width' | 'height'>;
 
 export function Icon({
   name,
