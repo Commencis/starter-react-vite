@@ -1,5 +1,13 @@
 # @commencis/starter-react-vite
 
+## 1.2.1
+
+### Patch Changes
+
+- update dependency: msw@2.6.4 ([#32](https://github.com/Commencis/starter-react-vite/pull/32))
+
+- add icon-size implementation ([#33](https://github.com/Commencis/starter-react-vite/pull/33))
+
 ## 1.2.0
 
 ### Minor Changes
