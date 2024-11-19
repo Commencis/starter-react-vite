@@ -1,4 +1,4 @@
-/// <reference types="./svg.d.ts" />
+/// <reference types="./custom.d.ts" />
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
