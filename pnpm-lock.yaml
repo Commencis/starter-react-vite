@@ -49,8 +49,8 @@ importers:
         specifier: 2.27.10
         version: 2.27.10
       '@commencis/commitlint-config':
-        specifier: 1.1.0
-        version: 1.1.0
+        specifier: 1.1.1
+        version: 1.1.1
       '@commencis/eslint-config':
         specifier: 1.4.3
         version: 1.4.3(eslint@9.14.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.6.3)
@@ -312,8 +312,8 @@ packages:
   '@changesets/write@0.3.2':
     resolution: {integrity: sha512-kDxDrPNpUgsjDbWBvUo27PzKX4gqeKOlhibaOXDJA6kuBisGqNHv/HwGJrAu8U/dSf8ZEFIeHIPtvSlZI1kULw==}
 
-  '@commencis/commitlint-config@1.1.0':
-    resolution: {integrity: sha512-nJdku+Y/dsTMfwoo66gnG3dg60hzMUVcQN50dkA/S4GrIDBq132nk8d/0lpqukm1Wn1swyvhvunYzJhUIBwOzg==}
+  '@commencis/commitlint-config@1.1.1':
+    resolution: {integrity: sha512-cVqVoDXuxbkASBdfqH+nbeSyOt4BZwsGlG8LJl9KONylODJ7E3EfmkeuOA0NJyF50b9WBjXN+cNjNL6sq5Gu6A==}
 
   '@commencis/eslint-config@1.4.3':
     resolution: {integrity: sha512-2kWr6zyYqAYwaCEPvpDwbo2akPw35XE0/R+JN+8PXiEXwn2jE1QL036b8J5xuSP9OfqcnRewkTVQiHiqjUZMFA==}
@@ -336,8 +336,8 @@ packages:
     engines: {node: '>=v18'}
     hasBin: true
 
-  '@commitlint/config-conventional@19.5.0':
-    resolution: {integrity: sha512-OBhdtJyHNPryZKg0fFpZNOBM1ZDbntMvqMuSmpfyP86XSfwzGw4CaoYRG4RutUPg0BTK07VMRIkNJT6wi2zthg==}
+  '@commitlint/config-conventional@19.6.0':
+    resolution: {integrity: sha512-DJT40iMnTYtBtUfw9ApbsLZFke1zKh6llITVJ+x9mtpHD08gsNXaIRqHTmwTZL3dNX5+WoyK7pCN/5zswvkBCQ==}
     engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.5.0':
@@ -4560,9 +4560,9 @@ snapshots:
       human-id: 1.0.2
       prettier: 2.8.8
 
-  '@commencis/commitlint-config@1.1.0':
+  '@commencis/commitlint-config@1.1.1':
     dependencies:
-      '@commitlint/config-conventional': 19.5.0
+      '@commitlint/config-conventional': 19.6.0
 
   '@commencis/eslint-config@1.4.3(eslint@9.14.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.6.3)':
     dependencies:
@@ -4622,7 +4622,7 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@commitlint/config-conventional@19.5.0':
+  '@commitlint/config-conventional@19.6.0':
     dependencies:
       '@commitlint/types': 19.5.0
       conventional-changelog-conventionalcommits: 7.0.2
