@@ -1,5 +1,42 @@
 # @commencis/starter-react-vite
 
+## 1.2.3
+
+### Patch Changes
+
+- fix: SVG custom declarations ([#42](https://github.com/Commencis/starter-react-vite/pull/42))
+
+- update dependency: vite@5.4.11 ([#40](https://github.com/Commencis/starter-react-vite/pull/40))
+
+- update dependency: storybook@8.4.4 ([#44](https://github.com/Commencis/starter-react-vite/pull/44))
+
+- update dependency: @commencis/eslint-config@1.5.1 ([#37](https://github.com/Commencis/starter-react-vite/pull/37))
+
+- update dependency: @vitejs/plugin-react-swc@3.7.2 ([#54](https://github.com/Commencis/starter-react-vite/pull/54))
+
+  - adds vite@6 support
+
+- update dependency: msw@2.6.8 ([#55](https://github.com/Commencis/starter-react-vite/pull/55))
+
+- update dependency: husky@9.1.7 ([#43](https://github.com/Commencis/starter-react-vite/pull/43))
+
+- update dependency: storybook@8.4.7 ([#50](https://github.com/Commencis/starter-react-vite/pull/50))
+
+  - adds vite@6 support
+
+- update dependency: @commencis/commitlint-config@1.1.1 ([#49](https://github.com/Commencis/starter-react-vite/pull/49))
+
+- update dependency: i18next@23.16.8 ([#51](https://github.com/Commencis/starter-react-vite/pull/51))
+
+- update package-manager: pnpm@9.15.0 ([#56](https://github.com/Commencis/starter-react-vite/pull/56))
+
+- update dependency: @commencis/eslint-plugin@1.2.0 ([#38](https://github.com/Commencis/starter-react-vite/pull/38))
+
+- update dependencies: ([#47](https://github.com/Commencis/starter-react-vite/pull/47))
+
+  - vitest@2.1.8
+  - @vitest/coverage-v8@2.1.8
+
 ## 1.2.2
 
 ### Patch Changes
