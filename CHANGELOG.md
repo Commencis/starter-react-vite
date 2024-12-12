@@ -1,5 +1,29 @@
 # @commencis/starter-react-vite
 
+## 1.2.4
+
+### Patch Changes
+
+- update dependency: @testing-library/react@16.1.0 ([#60](https://github.com/Commencis/starter-react-vite/pull/60))
+
+- update dependency: stylelint@16.11.0 ([#67](https://github.com/Commencis/starter-react-vite/pull/67))
+
+- update dependency: react-i18next@15.1.4 ([#59](https://github.com/Commencis/starter-react-vite/pull/59))
+
+- update dependency: sass-embedded@1.82.0 ([#66](https://github.com/Commencis/starter-react-vite/pull/66))
+
+- update dependency: prettier@3.4.2 ([#65](https://github.com/Commencis/starter-react-vite/pull/65))
+
+- update dependency: lint-staged@15.2.11 ([#63](https://github.com/Commencis/starter-react-vite/pull/63))
+
+- update dependency: eslint@9.16.0 ([#64](https://github.com/Commencis/starter-react-vite/pull/64))
+
+- update dependency: axios@1.7.9 ([#58](https://github.com/Commencis/starter-react-vite/pull/58))
+
+- update dependency: typescript@5.7.2 ([#68](https://github.com/Commencis/starter-react-vite/pull/68))
+
+- update dependency: @types/node@22.10.2 ([#62](https://github.com/Commencis/starter-react-vite/pull/62))
+
 ## 1.2.3
 
 ### Patch Changes
