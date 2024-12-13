@@ -1,5 +1,11 @@
 # @commencis/starter-react-vite
 
+## 1.2.5
+
+### Patch Changes
+
+- update dependency: zod@3.24.1 ([#71](https://github.com/Commencis/starter-react-vite/pull/71))
+
 ## 1.2.4
 
 ### Patch Changes
