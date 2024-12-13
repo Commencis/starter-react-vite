@@ -1,5 +1,11 @@
 # @commencis/starter-react-vite
 
+## 1.2.6
+
+### Patch Changes
+
+- update dependency: @commencis/eslint-config@1.5.2 ([#69](https://github.com/Commencis/starter-react-vite/pull/69))
+
 ## 1.2.5
 
 ### Patch Changes
