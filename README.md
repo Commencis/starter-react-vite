@@ -83,16 +83,21 @@ This will launch the development server and you can access your application at `
 
 ### Folder Structure
 
+> **Note:** Some libraries and folders, such as MSW, Storybook, Redux, and RTK, can be removed if they are not required for your project. For example, if you are using this template for an onboarding project and do not plan to showcase components or mock API calls, you can safely remove Storybook or MSW.
+
+Refer to the sections below for more details on their locations and use cases.
+
 - `src`: Main source folder for the project, used for development.
   - `assets`: Contains static assets like fonts, icons, and localization files.
+    - `images`: Directory for storing image assets like PNG and JPEG. It is advised to compress assets using tools like https://tinypng.com without sacrificing quality.
     - `fonts`: Font files used in the application. Please us this location if new font files needed.
     - `icons`: SVG icons used in the application.
     - `locales`: Localization files for different languages. The template already has i18n integrated. Please use the locale files as samples and create new ones if needed for each module/screen.
-  - `components`: Reusable UI components.
-    - `common`: Commonly used components like Loading.
+  - `components`: Main reusable component directory.
+    - `common`: Common module components, such as UserCard, PromoBanner, ListItem etc.
     - `error`: Error components like Error404 and Error500.
     - `layout`: Layout components.
-    - `ui`: UI components like Icon.
+    - `ui`: Basic UI components like Button, Text, and Input.
   - `config`: Configuration files and utilities.
   - `constants`: Constant values used throughout the application.
   - `hooks`: Custom React hooks.
