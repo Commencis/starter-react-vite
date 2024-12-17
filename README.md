@@ -102,25 +102,25 @@ This will launch the development server and you can access your application at `
     - `i18n`: Internationalization setup.
     - `mocks`: Mock data for testing. Feel free to alter endpoints or remove them completely if not needed.
       > The msw (Mock Service Worker) library is used for API mocking by intercepting network requests at the network level. It allows developers to create mock responses for API calls, which is useful for testing and development without relying on actual backend services. This helps in creating a more controlled and predictable testing environment.
-  - `modules`: Feature-specific modules. using PascalCase.
-    - `home`: Home module components.
+  - `modules`: Feature-specific modules, using PascalCase.
+    - `home`: Home module components, provided as a sample. Please alter for your needs or remove.
   - `pages`: Page components. using kebab-case
-    - `homepage`: Homepage component, provided as a sample. Alter as you wish.
+    - `homepage`: Homepage component, provided as a sample. Please alter for your needs or remove.
     - `not-found`: Not Found page component. The router already has a fallback route, so altering is advised.
   - `providers`: Context providers for the application.
     - `ErrorBoundary`: Error boundary component.
-    - `PreferencesContext`: Preferences context provider.
-  - `router`: Routing components and configuration.
+    - `PreferencesContext`: Preferences context provider. Integrated into the project for theme and language selection. Please review inside.
+  - `router`: Routing components and configuration. react-router-dom is already integrated. Please review the content and use it in accordance with the existing example.
     - `PrivateRoute`: Private route component.
   - `scripts`: Scripts for various tasks.
-  - `services`: Service layer for API calls.
+  - `services`: Service layer for API calls. Please review inside, there are also some samples.
     - `auth`: Authentication service.
     - `user`: User service.
-  - `store`: Redux store configuration and slices.
+  - `store`: Redux store configuration and slices. Redux Toolkit is already implemented. Please refer to https://redux-toolkit.js.org for more information. Please review the sample or remove depending on project needs.
     - `hooks`: Hooks for accessing the store.
     - `slices`: Redux slices for state management.
-  - `stories`: Storybook stories for components.
-  - `styles`: SCSS styles and mixins.
+  - `stories`: Storybook stories for components. https://storybook.js.org
+  - `styles`: SCSS styles and mixins. https://sass-lang.com
     - `abstracts`: Abstract styles like breakpoints and colors.
     - `base`: Base styles like fonts and variables.
     - `functions`: SCSS functions.
