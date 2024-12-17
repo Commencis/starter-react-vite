@@ -1,7 +1,60 @@
 @use 'variables';
 
+* {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   color: variables.$text-color;
 
   font-family: variables.$font-primary-regular;
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: underline;
+
+  &:visited {
+    color: inherit;
+  }
+}
+
+#root {
+  isolation: isolate;
 }
