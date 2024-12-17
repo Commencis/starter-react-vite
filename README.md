@@ -80,3 +80,50 @@ pnpm dev
 ```
 
 This will launch the development server and you can access your application at `http://localhost:3000`.
+
+### Folder Structure
+
+- `src`: Main source folder for the project, used for development.
+  - `assets`: Contains static assets like fonts, icons, and localization files.
+    - `fonts`: Font files used in the application. Please us this location if new font files needed.
+    - `icons`: SVG icons used in the application.
+    - `locales`: Localization files for different languages. The template already has i18n integrated. Please use the locale files as samples and create new ones if needed for each module/screen.
+  - `components`: Reusable UI components.
+    - `common`: Commonly used components like Loading.
+    - `error`: Error components like Error404 and Error500.
+    - `layout`: Layout components.
+    - `ui`: UI components like Icon.
+  - `config`: Configuration files and utilities.
+  - `constants`: Constant values used throughout the application.
+  - `hooks`: Custom React hooks.
+  - `layouts`: Layout components for different pages.
+  - `lib`: Library files and utilities.
+    - `http`: HTTP client configuration. Please review the `makeRequest` function, which is already integrated with environment variables like the base URL. If you are going to use plain Axios requests, it's a shortcut that already implements common use cases.
+    - `i18n`: Internationalization setup.
+    - `mocks`: Mock data for testing. Feel free to alter endpoints or remove them completely if not needed.
+      > The msw (Mock Service Worker) library is used for API mocking by intercepting network requests at the network level. It allows developers to create mock responses for API calls, which is useful for testing and development without relying on actual backend services. This helps in creating a more controlled and predictable testing environment.
+  - `modules`: Feature-specific modules. using PascalCase.
+    - `home`: Home module components.
+  - `pages`: Page components. using kebab-case
+    - `homepage`: Homepage component, provided as a sample. Alter as you wish.
+    - `not-found`: Not Found page component. The router already has a fallback route, so altering is advised.
+  - `providers`: Context providers for the application.
+    - `ErrorBoundary`: Error boundary component.
+    - `PreferencesContext`: Preferences context provider.
+  - `router`: Routing components and configuration.
+    - `PrivateRoute`: Private route component.
+  - `scripts`: Scripts for various tasks.
+  - `services`: Service layer for API calls.
+    - `auth`: Authentication service.
+    - `user`: User service.
+  - `store`: Redux store configuration and slices.
+    - `hooks`: Hooks for accessing the store.
+    - `slices`: Redux slices for state management.
+  - `stories`: Storybook stories for components.
+  - `styles`: SCSS styles and mixins.
+    - `abstracts`: Abstract styles like breakpoints and colors.
+    - `base`: Base styles like fonts and variables.
+    - `functions`: SCSS functions.
+    - `mixins`: SCSS mixins.
+  - `types`: TypeScript type definitions.
+  - `utils`: Utility functions.
