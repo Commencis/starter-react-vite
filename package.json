@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "3.9.1",
-    "@reduxjs/toolkit": "2.3.0",
+    "@reduxjs/toolkit": "2.5.0",
     "axios": "1.7.9",
     "i18next": "23.16.8",
     "i18next-resources-to-backend": "1.2.1",
