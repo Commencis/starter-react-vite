@@ -81,7 +81,7 @@
     "husky": "9.1.7",
     "jsdom": "25.0.1",
     "lint-staged": "15.2.11",
-    "msw": "2.6.8",
+    "msw": "2.7.0",
     "prettier": "3.4.2",
     "sass-embedded": "1.83.0",
     "storybook": "8.4.7",
