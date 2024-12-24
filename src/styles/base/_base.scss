@@ -1,7 +1,16 @@
 @use 'variables';
+@use 'normalize';
 
 body {
   color: variables.$text-color;
 
   font-family: variables.$font-primary-regular;
+}
+
+a {
+  text-decoration: underline;
+
+  &:visited {
+    color: inherit;
+  }
 }
