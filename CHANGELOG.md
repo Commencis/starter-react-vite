@@ -1,5 +1,44 @@
 # @commencis/starter-react-vite
 
+## 1.2.7
+
+### Patch Changes
+
+- update dependency: @reduxjs/toolkit to v2.5.0 ([#86](https://github.com/Commencis/starter-react-vite/pull/86))
+
+- chore(deps): update dependency @changesets/cli to v2.27.11 ([#91](https://github.com/Commencis/starter-react-vite/pull/91))
+
+- fix(deps): update dependency react-hook-form to v7.54.1 ([#87](https://github.com/Commencis/starter-react-vite/pull/87))
+
+- chore(deps): update dependency @types/react to v18.3.18 ([#93](https://github.com/Commencis/starter-react-vite/pull/93))
+
+- update dependency: sass-embedded@1.83.0 ([#76](https://github.com/Commencis/starter-react-vite/pull/76))
+
+- update dependency: @commencis/stylelint-config to v1.3.0 ([#75](https://github.com/Commencis/starter-react-vite/pull/75))
+
+- update dependency: @commencis/eslint-plugin@1.2.1 ([#70](https://github.com/Commencis/starter-react-vite/pull/70))
+
+- add css normalizer ([#85](https://github.com/Commencis/starter-react-vite/pull/85))
+
+- update dependencies: ([#57](https://github.com/Commencis/starter-react-vite/pull/57))
+
+  - @types/react to v18.3.17
+  - @types/react-dom to v18.3.5
+
+- update dependency: stylelint to v16.12.0 ([#83](https://github.com/Commencis/starter-react-vite/pull/83))
+
+- fix(prettier): prevent error when no files match glob pattern ([#89](https://github.com/Commencis/starter-react-vite/pull/89))
+
+- update dependency: react-redux to v9.2.0 ([#90](https://github.com/Commencis/starter-react-vite/pull/90))
+
+- chore(deps): update dependency msw to v2.7.0 ([#81](https://github.com/Commencis/starter-react-vite/pull/81))
+
+- update dependency: @commencis/prettier-config@1.1.1 ([#74](https://github.com/Commencis/starter-react-vite/pull/74))
+
+- chore(deps): update dependency eslint to v9.17.0 ([#82](https://github.com/Commencis/starter-react-vite/pull/82))
+
+- update dependency: commitlint to v19.6.1 ([#80](https://github.com/Commencis/starter-react-vite/pull/80))
+
 ## 1.2.6
 
 ### Patch Changes
