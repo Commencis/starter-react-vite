@@ -56,7 +56,7 @@
     "@commencis/eslint-config": "1.5.4",
     "@commencis/eslint-plugin": "1.2.2",
     "@commencis/prettier-config": "1.1.1",
-    "@commencis/stylelint-config": "1.3.0",
+    "@commencis/stylelint-config": "1.4.0",
     "@storybook/addon-a11y": "8.4.7",
     "@storybook/addon-actions": "8.4.7",
     "@storybook/addon-docs": "8.4.7",
