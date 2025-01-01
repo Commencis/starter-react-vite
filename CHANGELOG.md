@@ -1,5 +1,15 @@
 # @commencis/starter-react-vite
 
+## 1.2.8
+
+### Patch Changes
+
+- chore(deps): update dependency @commencis/eslint-config to v1.5.4 ([#100](https://github.com/Commencis/starter-react-vite/pull/100))
+
+- chore(deps): update dependency @commencis/stylelint-config to v1.4.0 ([#103](https://github.com/Commencis/starter-react-vite/pull/103))
+
+- chore(deps): update dependency @commencis/eslint-plugin to v1.2.2 ([#101](https://github.com/Commencis/starter-react-vite/pull/101))
+
 ## 1.2.7
 
 ### Patch Changes
