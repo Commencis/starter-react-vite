@@ -1,5 +1,11 @@
 # @commencis/starter-react-vite
 
+## 1.2.9
+
+### Patch Changes
+
+- fix: user service get-user request to match mock handlers ([#110](https://github.com/Commencis/starter-react-vite/pull/110))
+
 ## 1.2.8
 
 ### Patch Changes
