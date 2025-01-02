@@ -9,9 +9,8 @@ class UserService {
   public async fetchUserById(userId: string): Promise<UserResponse> {
     try {
       const response = await makeRequest<UserResponse, { userId: string }>({
-        method: 'POST',
-        path: `/users/${userId}`,
-        data: { userId },
+        method: 'GET',
+        path: `/user/${userId}`,
       });
       return response;
     } catch (error) {
