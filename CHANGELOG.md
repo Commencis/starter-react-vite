@@ -1,5 +1,19 @@
 # @commencis/starter-react-vite
 
+## 1.2.10
+
+### Patch Changes
+
+- chore(deps): update dependency @types/node to v22.13.0 ([#112](https://github.com/Commencis/starter-react-vite/pull/112))
+
+- chore(deps): update vitest monorepo to v3 (major) ([#120](https://github.com/Commencis/starter-react-vite/pull/120))
+
+- fix(deps): update dependency @hookform/resolvers to v3.10.0 ([#116](https://github.com/Commencis/starter-react-vite/pull/116))
+
+- chore(deps): update dependency typescript to v5.7.3 ([#118](https://github.com/Commencis/starter-react-vite/pull/118))
+
+- chore(deps): update dependency vite to v5.4.12 [security] ([#119](https://github.com/Commencis/starter-react-vite/pull/119))
+
 ## 1.2.9
 
 ### Patch Changes
