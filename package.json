@@ -47,7 +47,7 @@
     "react-hook-form": "7.54.2",
     "react-i18next": "15.1.4",
     "react-redux": "9.2.0",
-    "react-router-dom": "6.28.1",
+    "react-router-dom": "6.29.0",
     "zod": "3.24.1"
   },
   "devDependencies": {
