@@ -1,5 +1,31 @@
 # @commencis/starter-react-vite
 
+## 1.2.11
+
+### Patch Changes
+
+- chore(deps): update dependency stylelint to v16.14.1 ([#129](https://github.com/Commencis/starter-react-vite/pull/129))
+
+- chore(deps): update dependency vite to v5.4.14 ([#124](https://github.com/Commencis/starter-react-vite/pull/124))
+
+- chore(deps): update dependency @reduxjs/toolkit to v2.5.1 ([#128](https://github.com/Commencis/starter-react-vite/pull/128))
+
+- chore(deps): update dependency sass-embedded to v1.83.4 ([#113](https://github.com/Commencis/starter-react-vite/pull/113))
+
+- chore(deps): update dependency @commencis/eslint-config to v1.5.6 ([#127](https://github.com/Commencis/starter-react-vite/pull/127))
+
+- chore(deps): update dependency @changesets/cli to v2.27.12 ([#123](https://github.com/Commencis/starter-react-vite/pull/123))
+
+- chore(deps): update dependency @commencis/stylelint-config to v2 ([#130](https://github.com/Commencis/starter-react-vite/pull/130))
+
+- chore(deps): update dependency eslint to v9.19.0 ([#126](https://github.com/Commencis/starter-react-vite/pull/126))
+
+- chore(deps): update dependency @commencis/eslint-plugin to v1.3.2 ([#115](https://github.com/Commencis/starter-react-vite/pull/115))
+
+- fix(deps): update dependency react-router-dom to v6.29.0 ([#125](https://github.com/Commencis/starter-react-vite/pull/125))
+
+- chore(deps): update dependency commitlint to v19.7.1 ([#131](https://github.com/Commencis/starter-react-vite/pull/131))
+
 ## 1.2.10
 
 ### Patch Changes
