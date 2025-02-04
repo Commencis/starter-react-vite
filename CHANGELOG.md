@@ -1,5 +1,42 @@
 # @commencis/starter-react-vite
 
+## 1.3.0
+
+### Minor Changes
+
+- ## Important ([#143](https://github.com/Commencis/starter-react-vite/pull/143))
+
+  We’re preparing to release `starter-react-vite@2.0.0` soon! This will be the final version supporting `React 18.3` before we transition to the next major updates.
+
+  ## What’s Coming Next?
+
+  In the following release, we’ll introduce significant upgrades to keep the starter template up to date with the latest ecosystem advancements:
+
+  - React 19 – Upgrading to the latest React version for improved performance, new features, and better developer experience.
+  - React Router 7 – Implementing the latest version with updated APIs and optimizations for modern routing.
+  - i18n v24 – Enhancing internationalization support with the newest improvements.
+  - Vite 6 – Upgrading to the latest Vite version for faster builds and better development tooling.
+
+  Stay tuned for more details as we roll out these updates! 🚀
+
+### Patch Changes
+
+- chore(deps): update storybook monorepo to v8.5.3 ([#139](https://github.com/Commencis/starter-react-vite/pull/139))
+
+- chore(deps): update dependency @types/node to v22.13.1 ([#132](https://github.com/Commencis/starter-react-vite/pull/132))
+
+- chore(deps): update testing-library monorepo ([#141](https://github.com/Commencis/starter-react-vite/pull/141))
+
+- chore(deps): update dependency jsdom to v26 ([#138](https://github.com/Commencis/starter-react-vite/pull/138))
+
+- chore(deps): update pnpm to v10.2.0 ([#140](https://github.com/Commencis/starter-react-vite/pull/140))
+
+- chore(deps): update pnpm to v9.15.5 ([#133](https://github.com/Commencis/starter-react-vite/pull/133))
+
+- chore(deps): update vitest monorepo to v3.0.5 ([#135](https://github.com/Commencis/starter-react-vite/pull/135))
+
+- chore(deps): update dependency lint-staged to v15.4.3 ([#142](https://github.com/Commencis/starter-react-vite/pull/142))
+
 ## 1.2.11
 
 ### Patch Changes
