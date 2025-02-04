@@ -1,0 +1,61 @@
+@use '@/styles/base/variables';
+@use '@/styles/mixins/media-queries';
+
+.button {
+  border-radius: 5px;
+
+  transition: background-color 0.3s;
+
+  &:disabled {
+    cursor: default;
+  }
+
+  &.contained {
+    color: color('neutral', 100);
+    background-color: color('primary', 600);
+
+    &:hover {
+      background-color: color('primary', 800);
+    }
+  }
+
+  &.outlined {
+    border: 1px solid color('primary', 700);
+
+    color: color('neutral', 700);
+    background-color: color('neutral', 25);
+
+    &:hover {
+      background-color: color('neutral', 200);
+    }
+  }
+
+  &.text {
+    border: 0;
+
+    color: color('neutral', 700);
+    background-color: color('neutral', 25);
+  }
+
+  &.small {
+    padding: variables.$spacing-03;
+
+    font-size: variables.$button-label-small-font-size;
+
+    @include media-queries.small-screen {
+      width: 400px;
+    }
+  }
+
+  &.medium {
+    padding: variables.$spacing-03 variables.$spacing-04;
+
+    font-size: variables.$button-label-medium-font-size;
+  }
+
+  &.large {
+    padding: variables.$spacing-04 variables.$spacing-05;
+
+    font-size: variables.$button-label-large-font-size;
+  }
+}

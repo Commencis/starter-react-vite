@@ -1,0 +1,49 @@
+/* stylelint-disable @stylistic/max-line-length */
+@use '../base/variables';
+
+$small-screen: '(max-width: #{variables.$small-screen-max-width})';
+$medium-screen: '(min-width: #{variables.$medium-screen-min-width}) and (max-width: #{variables.$medium-screen-max-width})';
+$large-screen: '(min-width: #{variables.$large-screen-min-width})';
+$x-large-screen: '(min-width: #{variables.$x-large-screen-min-width})';
+
+@mixin small-screen {
+  @media #{$small-screen} {
+    @content;
+  }
+}
+
+@mixin medium-screen {
+  @media #{$medium-screen} {
+    @content;
+  }
+}
+
+@mixin large-screen {
+  @media #{$large-screen} {
+    @content;
+  }
+}
+
+@mixin x-large-screen {
+  @media #{$x-large-screen} {
+    @content;
+  }
+}
+
+@mixin small-screen-only() {
+  @media #{$medium-screen}, #{$large-screen} {
+    display: none;
+  }
+}
+
+@mixin medium-screen-only() {
+  @media #{$small-screen}, #{$large-screen} {
+    display: none;
+  }
+}
+
+@mixin large-screen-only() {
+  @media #{$small-screen}, #{$medium-screen} {
+    display: none;
+  }
+}
