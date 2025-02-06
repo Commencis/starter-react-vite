@@ -1,32 +1,12 @@
 @use '../functions/color' as *;
-@use '../abstracts/breakpoints';
+@forward '../abstracts/index';
 
 /* Typography Variables */
 
 $font-primary-regular: 'Lato-Regular', sans-serif;
 $font-primary-bold: 'Lato-Bold', sans-serif;
 
-$button-label-small-font-size: 0.75rem;
-$button-label-medium-font-size: 0.875rem;
-$button-label-large-font-size: 1.0625rem;
-
 /* Color Variables */
 
 $text-color: color(neutral, 700);
 $text-color-light: color(neutral, 500);
-
-/* Spacing Variables */
-
-$spacing-02: 0.25rem;
-$spacing-03: 0.5rem;
-$spacing-04: 0.75rem;
-$spacing-05: 1rem;
-$spacing-07: 1.5rem;
-
-/* Breakpoints Variables */
-
-$small-screen-max-width: breakpoints.$breakpoint-sm - 1;
-$medium-screen-min-width: breakpoints.$breakpoint-sm;
-$medium-screen-max-width: breakpoints.$breakpoint-lg - 1;
-$large-screen-min-width: breakpoints.$breakpoint-lg;
-$x-large-screen-min-width: breakpoints.$breakpoint-xl;

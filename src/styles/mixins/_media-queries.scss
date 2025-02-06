@@ -1,49 +1,45 @@
-/* stylelint-disable @stylistic/max-line-length */
-@use '../base/variables';
+@use 'sass:map';
+@use '../base/variables' as variables;
 
-$small-screen: '(max-width: #{variables.$small-screen-max-width})';
-$medium-screen: '(min-width: #{variables.$medium-screen-min-width}) and (max-width: #{variables.$medium-screen-max-width})';
-$large-screen: '(min-width: #{variables.$large-screen-min-width})';
-$x-large-screen: '(min-width: #{variables.$x-large-screen-min-width})';
+@mixin up($size) {
 
-@mixin small-screen {
-  @media #{$small-screen} {
-    @content;
+  $min-width: map.get(variables.$breakpoints, $size);
+
+  @if $min-width {
+    @media (min-width: $min-width) {
+      @content;
+    }
+  }
+  @else {
+    @error "Breakpoint '#{$size}' not found.";
   }
 }
 
-@mixin medium-screen {
-  @media #{$medium-screen} {
-    @content;
+@mixin down($size) {
+
+  $max-width: map.get(variables.$breakpoints, $size);
+
+  @if $max-width {
+    @media (max-width: ($max-width)) {
+      @content;
+    }
+  }
+  @else {
+    @error "Breakpoint '#{$size}' not found.";
   }
 }
 
-@mixin large-screen {
-  @media #{$large-screen} {
-    @content;
-  }
-}
+@mixin between($min-size, $max-size) {
 
-@mixin x-large-screen {
-  @media #{$x-large-screen} {
-    @content;
-  }
-}
+  $min-width: map.get(variables.$breakpoints, $min-size);
+  $max-width: map.get(variables.$breakpoints, $max-size);
 
-@mixin small-screen-only() {
-  @media #{$medium-screen}, #{$large-screen} {
-    display: none;
+  @if $min-width and $max-width {
+    @media (min-width: $min-width) and (max-width: ($max-width)) {
+      @content;
+    }
   }
-}
-
-@mixin medium-screen-only() {
-  @media #{$small-screen}, #{$large-screen} {
-    display: none;
-  }
-}
-
-@mixin large-screen-only() {
-  @media #{$small-screen}, #{$medium-screen} {
-    display: none;
+  @else {
+    @error "Breakpoints '#{$min-size}' and/or '#{$max-size}' not found.";
   }
 }

@@ -1,20 +1,15 @@
-import { ButtonHTMLAttributes, ReactElement } from 'react';
+import { ReactElement } from 'react';
 
 import clsx from 'clsx';
 
-import styles from '@/components/common/Button/Button.module.scss';
+import { ButtonProps } from '@/components/common/Button/Button.types';
 
-export type ButtonProps = {
-  label: string;
-  size?: 'small' | 'medium' | 'large';
-  variant?: 'contained' | 'outlined' | 'text';
-  className?: string;
-} & ButtonHTMLAttributes<HTMLButtonElement>;
+import styles from '@/components/common/Button/Button.module.scss';
 
 export const Button = ({
   label,
   size = 'medium',
-  variant = 'contained',
+  variant = 'filled',
   className,
   ...rest
 }: ButtonProps): ReactElement => {
