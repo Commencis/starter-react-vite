@@ -1,5 +1,23 @@
 # @commencis/starter-react-vite
 
+## 1.3.1
+
+### Patch Changes
+
+- chore(deps): update pnpm to v10.3.0 ([#153](https://github.com/Commencis/starter-react-vite/pull/153))
+
+- chore(deps): update pnpm to v10.2.1 ([#145](https://github.com/Commencis/starter-react-vite/pull/145))
+
+- chore(deps): update dependency @commencis/eslint-plugin to v1.3.3 ([#150](https://github.com/Commencis/starter-react-vite/pull/150))
+
+- feat: add clsx with button element ([#136](https://github.com/Commencis/starter-react-vite/pull/136))
+
+- chore(deps): update dependency @commencis/commitlint-config to v1.1.2 ([#148](https://github.com/Commencis/starter-react-vite/pull/148))
+
+- chore(deps): update dependency eslint to v9.20.0 ([#147](https://github.com/Commencis/starter-react-vite/pull/147))
+
+- chore(deps): update dependency @commencis/eslint-config to v1.5.8 ([#149](https://github.com/Commencis/starter-react-vite/pull/149))
+
 ## 1.3.0
 
 ### Minor Changes
