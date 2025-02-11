@@ -1,0 +1,66 @@
+@use '@/styles/mixins/media-queries' as media-queries;
+@use '@/styles/abstracts/radius' as radius;
+@use '@/styles/abstracts/spacing' as spacing;
+
+$button-label-small-font-size: 0.75rem;
+$button-label-medium-font-size: 0.875rem;
+$button-label-large-font-size: 1.0625rem;
+
+.button {
+  border-radius: radius.$radius-01;
+
+  transition: background-color 0.3s;
+
+  &:disabled {
+    cursor: default;
+  }
+
+  &.filled {
+    color: color('neutral', 100);
+    background-color: color('primary', 600);
+
+    &:hover {
+      background-color: color('primary', 800);
+    }
+  }
+
+  &.outlined {
+    border: 1px solid color('primary', 700);
+
+    color: color('neutral', 700);
+    background-color: color('neutral', 25);
+
+    &:hover {
+      background-color: color('neutral', 200);
+    }
+  }
+
+  &.text {
+    border: 0;
+
+    color: color('neutral', 700);
+    background-color: color('neutral', 25);
+  }
+
+  &.small {
+    padding: spacing.$spacing-02;
+
+    font-size: $button-label-small-font-size;
+  }
+
+  &.medium {
+    padding: spacing.$spacing-02 spacing.$spacing-03;
+
+    font-size: $button-label-medium-font-size;
+  }
+
+  &.large {
+    padding: spacing.$spacing-03 spacing.$spacing-04;
+
+    font-size: $button-label-large-font-size;
+
+    @include media-queries.down(sm) {
+      font-size: $button-label-medium-font-size;
+    }
+  }
+}
