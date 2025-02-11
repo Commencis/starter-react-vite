@@ -1,12 +1,13 @@
-@use '@/styles/base/variables' as variables;
 @use '@/styles/mixins/media-queries' as media-queries;
+@use '@/styles/abstracts/radius' as radius;
+@use '@/styles/abstracts/spacing' as spacing;
 
 $button-label-small-font-size: 0.75rem;
 $button-label-medium-font-size: 0.875rem;
 $button-label-large-font-size: 1.0625rem;
 
 .button {
-  border-radius: variables.$radius-01;
+  border-radius: radius.$radius-01;
 
   transition: background-color 0.3s;
 
@@ -42,19 +43,19 @@ $button-label-large-font-size: 1.0625rem;
   }
 
   &.small {
-    padding: variables.$spacing-02;
+    padding: spacing.$spacing-02;
 
     font-size: $button-label-small-font-size;
   }
 
   &.medium {
-    padding: variables.$spacing-02 variables.$spacing-03;
+    padding: spacing.$spacing-02 spacing.$spacing-03;
 
     font-size: $button-label-medium-font-size;
   }
 
   &.large {
-    padding: variables.$spacing-03 variables.$spacing-04;
+    padding: spacing.$spacing-03 spacing.$spacing-04;
 
     font-size: $button-label-large-font-size;
 

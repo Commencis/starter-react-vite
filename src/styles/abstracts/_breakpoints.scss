@@ -4,7 +4,7 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
-$breakpoints: (
+$breakpoints-map: (
   xs: $breakpoint-xs,
   sm: $breakpoint-sm,
   md: $breakpoint-md,
