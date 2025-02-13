@@ -5,7 +5,7 @@ import { defineConfig, loadEnv, UserConfig } from 'vite';
 import svgr from 'vite-plugin-svgr';
 
 export default ({ mode }): UserConfig => {
-  process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
+  const env = loadEnv(mode, process.cwd());
 
   return defineConfig({
     plugins: [
@@ -30,7 +30,7 @@ export default ({ mode }): UserConfig => {
     server: {
       open: true,
       host: true,
-      port: parseInt(process.env.VITE_PORT) || 3000,
+      port: parseInt(env.VITE_PORT) || 3000,
       strictPort: true,
     },
     resolve: {
