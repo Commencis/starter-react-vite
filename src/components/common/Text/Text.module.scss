@@ -1,0 +1,11 @@
+@use '@/styles/mixins/font-style' as *;
+
+.typography {
+  &.bodyMedium {
+    @include font-style('body', 'normal');
+  }
+
+  &.bodyBold {
+    @include font-style('body', 'bold');
+  }
+}

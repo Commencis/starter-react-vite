@@ -1,0 +1,9 @@
+@use 'sass:map';
+@use '@/styles/abstracts/typography' as *;
+
+@mixin font-style($size, $weight: 'normal', $style: 'normal') {
+  font-size: map.get($font-sizes, $size);
+  font-weight: map.get($font-weights, $weight);
+  font-style: map.get($font-styles, $style);
+  line-height: map.get($font-line-heights, $size);
+}

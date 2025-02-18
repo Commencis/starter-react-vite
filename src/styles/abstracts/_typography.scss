@@ -1,0 +1,26 @@
+$font-weights: (
+  'thin': 100,
+  'extra-light': 200,
+  'light': 300,
+  'normal': 400,
+  'medium': 500,
+  'semi-bold': 600,
+  'bold': 700,
+  'extra-bold': 800,
+  'black': 900
+);
+
+$font-styles: (
+  'italic': italic,
+  'normal': normal
+);
+
+$font-sizes: (
+  'caption': 0.75rem,
+  'body': 1rem
+);
+
+$font-line-heights: (
+  'caption': 1.25,
+  'body': 1.5
+);

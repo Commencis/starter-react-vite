@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { useConfig } from '@/hooks';
 
 import { Button } from '@/components/common/Button/Button';
+import Text from '@/components/common/Text/Text';
 import { Icon } from '@/components/ui';
 
 export function Home(): ReactElement {
@@ -17,7 +18,9 @@ export function Home(): ReactElement {
         <Icon name="chevron-down" size={24} />
       </span>
       <Button label="Click Me" />
-      <p>{`${t('home:title')} - ${t('version')}: ${version}`}</p>
+      <Text as="p" variant="bodyMedium">
+        {`${t('home:title')} - ${t('version')}: ${version}`}
+      </Text>
     </div>
   );
 }
