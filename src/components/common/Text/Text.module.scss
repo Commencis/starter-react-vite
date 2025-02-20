@@ -8,4 +8,12 @@
   &.bodyBold {
     @include font-style('body', 'bold');
   }
+
+  &.captionMedium {
+    @include font-style('caption', 'normal');
+  }
+
+  &.captionBold {
+    @include font-style('caption', 'bold');
+  }
 }

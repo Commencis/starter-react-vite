@@ -1,9 +1,31 @@
 @use 'sass:map';
+@use 'sass:list';
 @use '@/styles/abstracts/typography' as *;
 
 @mixin font-style($size, $weight: 'normal', $style: 'normal') {
-  font-size: map.get($font-sizes, $size);
-  font-weight: map.get($font-weights, $weight);
-  font-style: map.get($font-styles, $style);
-  line-height: map.get($font-line-heights, $size);
+
+  @if map.has-key($font-sizes, $size) {
+    font-size: map.get($font-sizes, $size);
+  }
+  @else {
+    @error 'Invalid font size: #{$size}. Available sizes: #{map.keys($font-sizes)}';
+  }
+
+  @if map.has-key($font-weights, $weight) {
+    font-weight: map.get($font-weights, $weight);
+  }
+  @else {
+    @error 'Invalid font weight: #{$weight}. Available weights: #{map.keys($font-weights)}';
+  }
+
+  @if list.index($font-styles, $style) {
+    font-style: $style;
+  }
+  @else {
+    @error 'Invalid font style: #{$style}. Available styles: normal, italic.';
+  }
+
+  @if map.has-key($font-line-heights, $size) {
+    line-height: map.get($font-line-heights, $size);
+  }
 }

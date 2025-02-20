@@ -7,4 +7,8 @@ export type TextProps = {
   children: string;
 };
 
-export type TextVariant = 'bodyMedium' | 'bodyBold';
+export type TextVariant =
+  | 'bodyMedium'
+  | 'bodyBold'
+  | 'captionMedium'
+  | 'captionBold';
