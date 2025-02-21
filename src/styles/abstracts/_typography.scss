@@ -1,23 +1,25 @@
-$font-styles: ('normal', 'italic');
+$font-styles: (normal, italic);
 
 $font-weights: (
-  'thin': 100,
-  'extra-light': 200,
-  'light': 300,
-  'normal': 400,
-  'medium': 500,
-  'semi-bold': 600,
-  'bold': 700,
-  'extra-bold': 800,
-  'black': 900
+  thin: 100,
+  extra-light: 200,
+  light: 300,
+  normal: 400,
+  medium: 500,
+  semi-bold: 600,
+  bold: 700,
+  extra-bold: 800,
+  black: 900
 );
 
 $font-sizes: (
-  'caption': 0.75rem,
-  'body': 1rem
+  body: 1rem,
+  caption: 0.875rem,
+  footnote: 0.75rem,
 );
 
 $font-line-heights: (
-  'caption': 1.25,
-  'body': 1.5
+  body: 1.5,
+  caption: 1.25,
+  footnote: 1.25,
 );

@@ -2,9 +2,19 @@ import { ReactElement } from 'react';
 
 import clsx from 'clsx';
 
-import { ButtonProps } from '@/components/common/Button/Button.types';
+import type {
+  ButtonProps,
+  ButtonTextVariant,
+} from '@/components/common/Button/Button.types';
+import Text from '@/components/common/Text/Text';
 
 import styles from '@/components/common/Button/Button.module.scss';
+
+const BUTTON_TEXT_VARIANT: ButtonTextVariant = {
+  small: 'footnoteMedium',
+  medium: 'captionMedium',
+  large: 'bodyMedium',
+};
 
 export const Button = ({
   label,
@@ -18,7 +28,7 @@ export const Button = ({
       className={clsx(styles.button, styles[variant], styles[size], className)}
       {...rest}
     >
-      {label}
+      <Text variant={BUTTON_TEXT_VARIANT[size]}>{label}</Text>
     </button>
   );
 };

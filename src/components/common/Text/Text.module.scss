@@ -2,18 +2,26 @@
 
 .typography {
   &.bodyMedium {
-    @include font-style('body', 'normal');
+    @include font-style(body, normal);
   }
 
   &.bodyBold {
-    @include font-style('body', 'bold');
+    @include font-style(body, bold);
   }
 
   &.captionMedium {
-    @include font-style('caption', 'normal');
+    @include font-style(caption, normal);
   }
 
   &.captionBold {
-    @include font-style('caption', 'bold');
+    @include font-style(caption, bold);
+  }
+
+  &.footnoteMedium {
+    @include font-style(footnote, normal);
+  }
+
+  &.footnoteBold {
+    @include font-style(footnote, bold);
   }
 }

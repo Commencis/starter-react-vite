@@ -11,4 +11,6 @@ export type TextVariant =
   | 'bodyMedium'
   | 'bodyBold'
   | 'captionMedium'
-  | 'captionBold';
+  | 'captionBold'
+  | 'footnoteMedium'
+  | 'footnoteBold';
