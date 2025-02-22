@@ -1,11 +1,15 @@
 import { JSX } from 'react';
 
-export type TextProps = {
-  as?: keyof JSX.IntrinsicElements;
-  variant?: TextVariant;
-  className?: string;
-  children: string;
-};
+type AllowedTextTags =
+  | 'p'
+  | 'span'
+  | 'strong'
+  | 'h1'
+  | 'h2'
+  | 'h3'
+  | 'h4'
+  | 'h5'
+  | 'h6';
 
 export type TextVariant =
   | 'bodyMedium'
@@ -14,3 +18,9 @@ export type TextVariant =
   | 'captionBold'
   | 'footnoteMedium'
   | 'footnoteBold';
+
+export type TextProps = {
+  as?: Extract<keyof JSX.IntrinsicElements, AllowedTextTags>;
+  variant?: TextVariant;
+  children: string;
+};

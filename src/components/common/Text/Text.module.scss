@@ -1,6 +1,8 @@
 @use '@/styles/mixins/font-style' as *;
 
 .typography {
+  letter-spacing: 0.5px;
+
   &.bodyMedium {
     @include font-style(body, normal);
   }

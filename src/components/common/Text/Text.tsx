@@ -5,17 +5,14 @@ import type { TextProps } from '@/components/common/Text/Text.types';
 
 import styles from '@/components/common/Text/Text.module.scss';
 
-const Text = ({
+export const Text = ({
   variant = 'bodyBold',
-  as: Component = 'span',
-  className,
+  as: Component = 'p',
   children,
 }: TextProps): ReactElement => {
   return (
-    <Component className={clsx(styles.typography, styles[variant], className)}>
+    <Component className={clsx(styles.typography, styles[variant])}>
       {children}
     </Component>
   );
 };
-
-export default Text;

@@ -6,7 +6,7 @@ import type {
   ButtonProps,
   ButtonTextVariant,
 } from '@/components/common/Button/Button.types';
-import Text from '@/components/common/Text/Text';
+import { Text } from '@/components/common/Text/Text';
 
 import styles from '@/components/common/Button/Button.module.scss';
 
@@ -28,7 +28,9 @@ export const Button = ({
       className={clsx(styles.button, styles[variant], styles[size], className)}
       {...rest}
     >
-      <Text variant={BUTTON_TEXT_VARIANT[size]}>{label}</Text>
+      <Text as="span" variant={BUTTON_TEXT_VARIANT[size]}>
+        {label}
+      </Text>
     </button>
   );
 };
