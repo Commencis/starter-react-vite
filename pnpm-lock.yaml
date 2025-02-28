@@ -61,8 +61,8 @@ importers:
         specifier: 1.3.3
         version: 1.3.3(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
       '@commencis/prettier-config':
-        specifier: 1.1.1
-        version: 1.1.1
+        specifier: 2.0.0
+        version: 2.0.0(prettier@3.5.2)
       '@commencis/stylelint-config':
         specifier: 2.0.0
         version: 2.0.0(postcss-html@1.8.0)(postcss@8.5.1)(stylelint@16.14.1(typescript@5.7.3))
@@ -330,8 +330,10 @@ packages:
   '@commencis/eslint-plugin@1.3.3':
     resolution: {integrity: sha512-O29Q/Z1UtntKCDGy+IFqwA5LZmjk8GQQ41yLAlSK/K/gdNzVUiJ9D+VjTu0HArRLZ3Wu1M/jbIBJrcbBwaJleg==}
 
-  '@commencis/prettier-config@1.1.1':
-    resolution: {integrity: sha512-EJDdp8pYFKSbni8HmRM1psxy79lBdwuqm+gd01vFRSQLb6SaebhR6hhAjIDfVEWGrdyuEDtI7Y0MxK5oYKE9ZA==}
+  '@commencis/prettier-config@2.0.0':
+    resolution: {integrity: sha512-j7T4njevT3PNaD1ZV8y8g/bvIlyPF0i5hY2wwUonnttbcmbIXie9eEhkw1F2kk3mx5TsgjFYubYV1hM3zd7yHw==}
+    peerDependencies:
+      prettier: '>= 3.5'
 
   '@commencis/stylelint-config@2.0.0':
     resolution: {integrity: sha512-ideb5Re1gMZ+IPEOW8obZyEiW0Os+3LnLtVjJXiKr7fuqckA4JSb9pnhbb/lgN8FxaH/llgMFjSD0Q8Yec0jpw==}
@@ -4609,7 +4611,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@commencis/prettier-config@1.1.1': {}
+  '@commencis/prettier-config@2.0.0(prettier@3.5.2)':
+    dependencies:
+      prettier: 3.5.2
 
   '@commencis/stylelint-config@2.0.0(postcss-html@1.8.0)(postcss@8.5.1)(stylelint@16.14.1(typescript@5.7.3))':
     dependencies:
