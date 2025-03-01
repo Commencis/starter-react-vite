@@ -1,4 +1,4 @@
-import { createContext, ReactElement, useContext, useState } from 'react';
+import { createContext, ReactElement, use, useState } from 'react';
 
 import { DEFAULT_LOCALE, DEFAULT_THEME } from '@/constants';
 
@@ -34,14 +34,14 @@ export function PreferencesProvider({
   };
 
   return (
-    <PreferencesContext.Provider value={{ ...preferences, updatePreferences }}>
+    <PreferencesContext value={{ ...preferences, updatePreferences }}>
       {children}
-    </PreferencesContext.Provider>
+    </PreferencesContext>
   );
 }
 
 export function usePreferences(): PreferencesContextType {
-  const context = useContext(PreferencesContext);
+  const context = use(PreferencesContext);
   if (!context) {
     throw new Error('usePreferences must be used within a PreferencesProvider');
   }
