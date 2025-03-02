@@ -1,0 +1,29 @@
+@use '@/styles/mixins/font-style' as *;
+
+.typography {
+  letter-spacing: 0.5px;
+
+  &.bodyMedium {
+    @include font-style(body, normal);
+  }
+
+  &.bodyBold {
+    @include font-style(body, bold);
+  }
+
+  &.captionMedium {
+    @include font-style(caption, normal);
+  }
+
+  &.captionBold {
+    @include font-style(caption, bold);
+  }
+
+  &.footnoteMedium {
+    @include font-style(footnote, normal);
+  }
+
+  &.footnoteBold {
+    @include font-style(footnote, bold);
+  }
+}

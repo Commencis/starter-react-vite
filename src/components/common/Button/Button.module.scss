@@ -2,10 +2,6 @@
 @use '@/styles/abstracts/radius' as radius;
 @use '@/styles/abstracts/spacing' as spacing;
 
-$button-label-small-font-size: 0.75rem;
-$button-label-medium-font-size: 0.875rem;
-$button-label-large-font-size: 1.0625rem;
-
 .button {
   border-radius: radius.$radius-01;
 
@@ -44,23 +40,17 @@ $button-label-large-font-size: 1.0625rem;
 
   &.small {
     padding: spacing.$spacing-02;
-
-    font-size: $button-label-small-font-size;
   }
 
   &.medium {
     padding: spacing.$spacing-02 spacing.$spacing-03;
-
-    font-size: $button-label-medium-font-size;
   }
 
   &.large {
     padding: spacing.$spacing-03 spacing.$spacing-04;
 
-    font-size: $button-label-large-font-size;
-
     @include media-queries.down(sm) {
-      font-size: $button-label-medium-font-size;
+      padding: spacing.$spacing-02 spacing.$spacing-03;
     }
   }
 }
