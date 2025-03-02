@@ -2,7 +2,7 @@ import {
   createBrowserRouter,
   LazyRouteFunction,
   RouteObject,
-} from 'react-router-dom';
+} from 'react-router';
 
 import { ROUTES } from '@/constants';
 
