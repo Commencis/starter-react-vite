@@ -1,5 +1,61 @@
 # @commencis/starter-react-vite
 
+## 2.0.0
+
+### Major Changes
+
+- feat: migrate to React v19 ([#98](https://github.com/Commencis/starter-react-vite/pull/98))
+
+- feat: migrate to react-router v7 library mode ([#97](https://github.com/Commencis/starter-react-vite/pull/97))
+
+### Minor Changes
+
+- feat: update i18next to v24 by using local translations ([#78](https://github.com/Commencis/starter-react-vite/pull/78))
+
+- chore(deps): update dev-dependencies ([#78](https://github.com/Commencis/starter-react-vite/pull/78))
+
+- chore(deps): update dependency vite to v6.1 ([#144](https://github.com/Commencis/starter-react-vite/pull/144))
+
+- feat: add typography and text components ([#159](https://github.com/Commencis/starter-react-vite/pull/159))
+
+- feat: implement @commencis/lint-staged-config ([#165](https://github.com/Commencis/starter-react-vite/pull/165))
+
+### Patch Changes
+
+- chore(deps): update pnpm to v10.3.0 ([#153](https://github.com/Commencis/starter-react-vite/pull/153))
+
+- chore(deps): update dependency @reduxjs/toolkit to v2.6.0 ([#160](https://github.com/Commencis/starter-react-vite/pull/160))
+
+- chore(deps): update pnpm to v10.2.1 ([#145](https://github.com/Commencis/starter-react-vite/pull/145))
+
+- chore(deps): update dependency @types/node to v22.13.5 ([#157](https://github.com/Commencis/starter-react-vite/pull/157))
+
+- chore(deps): update dependency eslint to v9.20.1 ([#155](https://github.com/Commencis/starter-react-vite/pull/155))
+
+- chore(deps): update dependency @commencis/eslint-plugin to v1.3.3 ([#150](https://github.com/Commencis/starter-react-vite/pull/150))
+
+- chore(deps): update dependency zod to v3.24.2 ([#158](https://github.com/Commencis/starter-react-vite/pull/158))
+
+- chore(deps): update storybook monorepo to v8.6.3 ([#156](https://github.com/Commencis/starter-react-vite/pull/156))
+
+- chore(deps): update dependency @commencis/prettier-config to v2 ([#154](https://github.com/Commencis/starter-react-vite/pull/154))
+
+- chore(deps): update dependency @vitejs/plugin-react-swc to v3.8.0 ([#151](https://github.com/Commencis/starter-react-vite/pull/151))
+
+- chore(deps): update dependency prettier to v3.5.2 ([#152](https://github.com/Commencis/starter-react-vite/pull/152))
+
+- feat: add clsx with button element ([#136](https://github.com/Commencis/starter-react-vite/pull/136))
+
+- chore(deps): update dependency @commencis/commitlint-config to v1.1.2 ([#148](https://github.com/Commencis/starter-react-vite/pull/148))
+
+- chore(deps): update dependency eslint to v9.20.0 ([#147](https://github.com/Commencis/starter-react-vite/pull/147))
+
+- chore(deps): update dependency axios to v1.8.1 ([#162](https://github.com/Commencis/starter-react-vite/pull/162))
+
+- chore(deps): update dependency @commencis/eslint-config to v1.5.8 ([#149](https://github.com/Commencis/starter-react-vite/pull/149))
+
+- chore(deps): update dependency @hookform/resolvers to v4 ([#161](https://github.com/Commencis/starter-react-vite/pull/161))
+
 ## 1.3.0
 
 ### Minor Changes
