@@ -1,5 +1,1 @@
-export default {
-  '*.json': 'prettier --write',
-  '*.{css,scss}': 'stylelint --fix',
-  '*.{js,cjs,mjs,jsx,ts,tsx}': 'eslint --fix',
-};
+export { reactConfig as default } from '@commencis/lint-staged-config';
