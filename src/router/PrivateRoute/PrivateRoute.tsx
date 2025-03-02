@@ -1,15 +1,15 @@
-import { PropsWithChildren, ReactNode } from 'react';
+import { ReactNode } from 'react';
 
-import { Navigate, Outlet } from 'react-router-dom';
+import { Navigate, Outlet } from 'react-router';
 
 import { selectIsAuthenticated, useAppSelector } from '@/store';
 
-export function PrivateRoute({ children }: PropsWithChildren): ReactNode {
+export function PrivateRoute(): ReactNode {
   const isAuthenticated = useAppSelector(selectIsAuthenticated);
 
   if (!isAuthenticated) {
     return <Navigate to="/login" />;
   }
 
-  return children ?? <Outlet />;
+  return <Outlet />;
 }
