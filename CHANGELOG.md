@@ -1,5 +1,19 @@
 # @commencis/starter-react-vite
 
+## 2.1.0
+
+### Minor Changes
+
+- feat: add typescript 5.8 support ([#172](https://github.com/Commencis/starter-react-vite/pull/172))
+
+- feat: add color prop to text component ([#169](https://github.com/Commencis/starter-react-vite/pull/169))
+
+### Patch Changes
+
+- chore: remove i18next-resources-to-backend dependency ([#170](https://github.com/Commencis/starter-react-vite/pull/170))
+
+- chore(deps): update dependency prettier to v3.5.3 ([#167](https://github.com/Commencis/starter-react-vite/pull/167))
+
 ## 2.0.0
 
 ### Major Changes
