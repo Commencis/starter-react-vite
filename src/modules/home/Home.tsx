@@ -17,7 +17,7 @@ export function Home(): ReactElement {
         <Icon name="chevron-down" size={24} />
       </span>
       <Button label="Click Me" />
-      <Text variant="bodyMedium">
+      <Text variant="bodyMedium" color="neutral-700">
         {`${t('home:title')} - ${t('version')}: ${version}`}
       </Text>
     </div>

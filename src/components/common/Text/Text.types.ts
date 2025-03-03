@@ -1,5 +1,11 @@
 import { JSX } from 'react';
 
+import { ColorPalette } from '@/types';
+
+type Color = {
+  [K in keyof ColorPalette]: `${K}-${Extract<keyof ColorPalette[K], string | number>}`;
+}[keyof ColorPalette];
+
 type AllowedTextTags =
   | 'p'
   | 'span'
@@ -22,5 +28,6 @@ export type TextVariant =
 export type TextProps = {
   as?: Extract<keyof JSX.IntrinsicElements, AllowedTextTags>;
   variant?: TextVariant;
+  color?: Color;
   children: string;
 };
