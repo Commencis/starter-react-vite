@@ -1,14 +1,6 @@
 @use '@/styles/mixins/font-style' as *;
 @use '@/styles/abstracts/colors' as colors;
 
-@each $color-group, $tones in colors.$palette {
-  @each $tone, $hex in $tones {
-    .#{$color-group}-#{"#{$tone}"} {
-      color: color($color-group, $tone);
-    }
-  }
-}
-
 .typography {
   letter-spacing: 0.5px;
 
@@ -34,5 +26,15 @@
 
   &.footnoteBold {
     @include font-style(footnote, bold);
+  }
+
+  @each $color-group, $tones in colors.$palette {
+    @each $tone, $hex in $tones {
+
+      $class-name: #{$color-group}-#{$tone};
+      &.#{$class-name} {
+        color: color($color-group, $tone);
+      }
+    }
   }
 }

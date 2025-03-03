@@ -1,6 +1,10 @@
 import { JSX } from 'react';
 
-import { ColorPalette, ColorValue } from '@/types';
+import { ColorPalette } from '@/types';
+
+type Color = {
+  [K in keyof ColorPalette]: `${K}-${Extract<keyof ColorPalette[K], string | number>}`;
+}[keyof ColorPalette];
 
 type AllowedTextTags =
   | 'p'
@@ -20,8 +24,6 @@ export type TextVariant =
   | 'captionBold'
   | 'footnoteMedium'
   | 'footnoteBold';
-
-type Color = `${keyof ColorPalette}-${ColorValue}`;
 
 export type TextProps = {
   as?: Extract<keyof JSX.IntrinsicElements, AllowedTextTags>;
