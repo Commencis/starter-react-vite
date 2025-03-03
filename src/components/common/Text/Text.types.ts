@@ -1,5 +1,7 @@
 import { JSX } from 'react';
 
+import { ColorPalette, ColorValue } from '@/types';
+
 type AllowedTextTags =
   | 'p'
   | 'span'
@@ -19,8 +21,11 @@ export type TextVariant =
   | 'footnoteMedium'
   | 'footnoteBold';
 
+type Color = `${keyof ColorPalette}-${ColorValue}`;
+
 export type TextProps = {
   as?: Extract<keyof JSX.IntrinsicElements, AllowedTextTags>;
   variant?: TextVariant;
+  color?: Color;
   children: string;
 };
