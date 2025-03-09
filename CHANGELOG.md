@@ -1,5 +1,25 @@
 # @commencis/starter-react-vite
 
+## 2.1.1
+
+### Patch Changes
+
+- chore(deps): update dependency @types/node to v22.13.10 ([#180](https://github.com/Commencis/starter-react-vite/pull/180))
+
+- chore(deps): update pnpm to v10.6.1 ([#178](https://github.com/Commencis/starter-react-vite/pull/178))
+
+- chore(deps): update storybook monorepo to v8.6.4 ([#175](https://github.com/Commencis/starter-react-vite/pull/175))
+
+- chore(deps): update vitest monorepo to v3.0.8 ([#179](https://github.com/Commencis/starter-react-vite/pull/179))
+
+- chore(deps): update dependency axios to v1.8.2 [security] ([#177](https://github.com/Commencis/starter-react-vite/pull/177))
+
+- chore(deps): update dev-dependencies ([#181](https://github.com/Commencis/starter-react-vite/pull/181))
+
+- chore(deps): update dependency react-router to v7.3.0 ([#182](https://github.com/Commencis/starter-react-vite/pull/182))
+
+- chore(deps): update dependency vite to v6.2.1 ([#174](https://github.com/Commencis/starter-react-vite/pull/174))
+
 ## 2.1.0
 
 ### Minor Changes
