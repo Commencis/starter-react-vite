@@ -1,0 +1,5 @@
+---
+'@commencis/starter-react-vite': patch
+---
+
+chore(deps): update vitest monorepo to v3.0.8
