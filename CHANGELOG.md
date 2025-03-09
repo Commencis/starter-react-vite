@@ -1,5 +1,11 @@
 # @commencis/starter-react-vite
 
+## 2.2.0
+
+### Minor Changes
+
+- feat: upgrade minimum node version to v22.14 ([#184](https://github.com/Commencis/starter-react-vite/pull/184))
+
 ## 2.1.1
 
 ### Patch Changes
