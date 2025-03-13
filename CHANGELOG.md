@@ -1,5 +1,19 @@
 # @commencis/starter-react-vite
 
+## 2.2.1
+
+### Patch Changes
+
+- chore(deps): lock file maintenance: [security] ([#191](https://github.com/Commencis/starter-react-vite/pull/191))
+
+- chore(deps): update dependency i18next to v24.2.3 ([#190](https://github.com/Commencis/starter-react-vite/pull/190))
+
+- chore(deps): update pnpm to v10.6.3 ([#186](https://github.com/Commencis/starter-react-vite/pull/186))
+
+- chore(deps): update dependency axios to v1.8.3 ([#187](https://github.com/Commencis/starter-react-vite/pull/187))
+
+- chore(deps): update dependency lint-staged to v15.5.0 ([#188](https://github.com/Commencis/starter-react-vite/pull/188))
+
 ## 2.2.0
 
 ### Minor Changes
