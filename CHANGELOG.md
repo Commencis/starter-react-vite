@@ -1,5 +1,11 @@
 # @commencis/starter-react-vite
 
+## 2.2.2
+
+### Patch Changes
+
+- chore(deps): update dependency vite to v6.2.2 ([#192](https://github.com/Commencis/starter-react-vite/pull/192))
+
 ## 2.2.1
 
 ### Patch Changes
