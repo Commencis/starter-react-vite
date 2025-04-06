@@ -5,11 +5,11 @@ import clsx from 'clsx';
 import type {
   ButtonProps,
   ButtonSize,
-} from '@/components/common/Button/Button.types';
-import { Text } from '@/components/common/Text/Text';
-import type { TextVariant } from '@/components/common/Text/Text.types';
+} from '@/components/ui/Button/Button.types';
+import { Text } from '@/components/ui/Text/Text';
+import type { TextVariant } from '@/components/ui/Text/Text.types';
 
-import styles from '@/components/common/Button/Button.module.scss';
+import styles from '@/components/ui/Button/Button.module.scss';
 
 const buttonSizeTextVariantMap = {
   small: 'footnoteMedium',
