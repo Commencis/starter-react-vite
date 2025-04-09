@@ -4,8 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 import { useConfig } from '@/hooks';
 
-import { Button, Text } from '@/components/common';
-import { Icon } from '@/components/ui';
+import { Button, Icon, Text } from '@/components/ui';
 
 export function Home(): ReactElement {
   const { version } = useConfig();
