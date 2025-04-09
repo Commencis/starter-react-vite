@@ -1,5 +1,17 @@
 # @commencis/starter-react-vite
 
+## 2.2.2
+
+### Patch Changes
+
+- chore(deps): update pnpm to v10.8.0 ([#198](https://github.com/Commencis/starter-react-vite/pull/198))
+
+- chore(deps): update dependency @types/node to v22.14.0 ([#197](https://github.com/Commencis/starter-react-vite/pull/197))
+
+- chore(deps): update dependency vite to v6.2.2 ([#192](https://github.com/Commencis/starter-react-vite/pull/192))
+
+- refactor: update button and text components folders ([#205](https://github.com/Commencis/starter-react-vite/pull/205))
+
 ## 2.2.1
 
 ### Patch Changes
