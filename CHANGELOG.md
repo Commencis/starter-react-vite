@@ -1,5 +1,17 @@
 # @commencis/starter-react-vite
 
+## 2.3.0
+
+### Minor Changes
+
+- fix(deps): update react monorepo ([#194](https://github.com/Commencis/starter-react-vite/pull/194))
+
+### Patch Changes
+
+- chore(deps): update storybook monorepo to v8.6.12 ([#193](https://github.com/Commencis/starter-react-vite/pull/193))
+
+- chore(deps): update dependency vite to v6.2.6 [security] ([#200](https://github.com/Commencis/starter-react-vite/pull/200))
+
 ## 2.2.2
 
 ### Patch Changes
