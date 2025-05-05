@@ -1,5 +1,37 @@
 # @commencis/starter-react-vite
 
+## 2.3.0
+
+### Minor Changes
+
+- fix(deps): update react monorepo ([#194](https://github.com/Commencis/starter-react-vite/pull/194))
+
+### Patch Changes
+
+- chore(deps): update dependency @commencis/eslint-plugin to v1.4.1 ([#207](https://github.com/Commencis/starter-react-vite/pull/207))
+
+- chore(deps): update storybook monorepo to v8.6.12 ([#193](https://github.com/Commencis/starter-react-vite/pull/193))
+
+- chore(deps): update dependency eslint to v9.25.1 ([#203](https://github.com/Commencis/starter-react-vite/pull/203))
+
+- chore(deps): update dependency node to v22.14.1 ([#209](https://github.com/Commencis/starter-react-vite/pull/209))
+
+- chore(deps): update dependency vite to v6.2.7 [security] ([#217](https://github.com/Commencis/starter-react-vite/pull/217))
+
+- chore(deps): update dependency @commencis/eslint-config to v1.7.1 ([#206](https://github.com/Commencis/starter-react-vite/pull/206))
+
+- chore(deps): update dependency @vitejs/plugin-react-swc to v3.9.0 ([#195](https://github.com/Commencis/starter-react-vite/pull/195))
+
+- chore(deps): update dependency vite to v6.2.6 [security] ([#200](https://github.com/Commencis/starter-react-vite/pull/200))
+
+- chore(deps): update dependency lint-staged to v15.5.1 ([#210](https://github.com/Commencis/starter-react-vite/pull/210))
+
+- fix(deps): update dependency axios to v1.8.4 ([#202](https://github.com/Commencis/starter-react-vite/pull/202))
+
+- chore(deps): update dependency sass-embedded to v1.87.0 ([#204](https://github.com/Commencis/starter-react-vite/pull/204))
+
+- chore(deps): update dependency react-router to v7.5.2 [security] ([#214](https://github.com/Commencis/starter-react-vite/pull/214))
+
 ## 2.2.2
 
 ### Patch Changes
