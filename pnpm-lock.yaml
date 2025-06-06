@@ -122,7 +122,7 @@ importers:
         version: 3.10.1(vite@6.3.5(@types/node@22.15.30)(jiti@2.4.2)(sass-embedded@1.87.0)(yaml@2.8.0))
       '@vitest/coverage-v8':
         specifier: 3.2.2
-        version: 3.2.2(vitest@3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.0.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0))
+        version: 3.2.2(vitest@3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.1.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0))
       commitlint:
         specifier: 19.8.1
         version: 19.8.1(@types/node@22.15.30)(typescript@5.8.3)
@@ -133,8 +133,8 @@ importers:
         specifier: 9.1.7
         version: 9.1.7
       jsdom:
-        specifier: 26.0.0
-        version: 26.0.0
+        specifier: 26.1.0
+        version: 26.1.0
       lint-staged:
         specifier: 16.1.0
         version: 16.1.0
@@ -164,7 +164,7 @@ importers:
         version: 4.3.0(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.30)(jiti@2.4.2)(sass-embedded@1.87.0)(yaml@2.8.0))
       vitest:
         specifier: 3.2.2
-        version: 3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.0.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0)
+        version: 3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.1.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0)
 
 packages:
 
@@ -2720,8 +2720,8 @@ packages:
     resolution: {integrity: sha512-Hicd6JK5Njt2QB6XYFS7ok9e37O8AYk3jTcppG4YVQnYjOemymvTcmc7OWsmq/Qqj5TdRFO5/x/tIPmBeRtGHg==}
     engines: {node: '>=12.0.0'}
 
-  jsdom@26.0.0:
-    resolution: {integrity: sha512-BZYDGVAIriBWTpIxYzrXjv3E/4u8+/pSG5bQdIYCbNCGOvsPkDQfTVLAIXAf9ETdCpduCVTkDe2NNZ8NIwUVzw==}
+  jsdom@26.1.0:
+    resolution: {integrity: sha512-Cvc9WUhxSMEo4McES3P7oK3QaXldCfNWp7pl2NNeiIFlCoLr3kfq9kb1fxftiwk1FLV7CvpvDfonxtzUDeSOPg==}
     engines: {node: '>=18'}
     peerDependencies:
       canvas: ^3.0.0
@@ -5710,7 +5710,7 @@ snapshots:
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@vitest/coverage-v8@3.2.2(vitest@3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.0.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0))':
+  '@vitest/coverage-v8@3.2.2(vitest@3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.1.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 1.0.2
@@ -5725,7 +5725,7 @@ snapshots:
       std-env: 3.9.0
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
-      vitest: 3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.0.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0)
+      vitest: 3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.1.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -7151,12 +7151,11 @@ snapshots:
 
   jsdoc-type-pratt-parser@4.1.0: {}
 
-  jsdom@26.0.0:
+  jsdom@26.1.0:
     dependencies:
       cssstyle: 4.3.1
       data-urls: 5.0.0
       decimal.js: 10.5.0
-      form-data: 4.0.2
       html-encoding-sniffer: 4.0.0
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
@@ -8559,7 +8558,7 @@ snapshots:
       sass-embedded: 1.87.0
       yaml: 2.8.0
 
-  vitest@3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.0.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0):
+  vitest@3.2.2(@types/node@22.15.30)(jiti@2.4.2)(jsdom@26.1.0)(msw@2.7.3(@types/node@22.15.30)(typescript@5.8.3))(sass-embedded@1.87.0)(yaml@2.8.0):
     dependencies:
       '@types/chai': 5.2.2
       '@vitest/expect': 3.2.2
@@ -8586,7 +8585,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.15.30
-      jsdom: 26.0.0
+      jsdom: 26.1.0
     transitivePeerDependencies:
       - jiti
       - less
