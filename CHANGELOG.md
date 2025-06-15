@@ -1,5 +1,25 @@
 # @commencis/starter-react-vite
 
+## 2.5.0
+
+### Minor Changes
+
+- fix(deps): update dependency axios to v1.10.0 ([#267](https://github.com/Commencis/starter-react-vite/pull/267))
+
+- chore(deps): update dependency eslint to v9.29.0 ([#265](https://github.com/Commencis/starter-react-vite/pull/265))
+
+### Patch Changes
+
+- fix(deps): update dependency zod to v3.25.64 ([#264](https://github.com/Commencis/starter-react-vite/pull/264))
+
+- chore(deps): update dependency lint-staged to v16.1.2 ([#266](https://github.com/Commencis/starter-react-vite/pull/266))
+
+- chore(deps): update dependency @types/react to v19.1.8 ([#260](https://github.com/Commencis/starter-react-vite/pull/260))
+
+- fix(deps): update dependency react-i18next to v15.5.3 ([#263](https://github.com/Commencis/starter-react-vite/pull/263))
+
+- fix(deps): update dependency zod to v3.25.63 ([#262](https://github.com/Commencis/starter-react-vite/pull/262))
+
 ## 2.4.0
 
 ### Minor Changes
