@@ -1,5 +1,55 @@
 # @commencis/starter-react-vite
 
+## 2.5.0
+
+### Minor Changes
+
+- fix(deps): update dependency axios to v1.10.0 ([#267](https://github.com/Commencis/starter-react-vite/pull/267))
+
+- chore(deps): update dependency eslint to v9.29.0 ([#265](https://github.com/Commencis/starter-react-vite/pull/265))
+
+- fix(deps): update dependency react-hook-form to v7.58.0 ([#268](https://github.com/Commencis/starter-react-vite/pull/268))
+
+- chore(deps): update dependency eslint to v9.30.0 ([#283](https://github.com/Commencis/starter-react-vite/pull/283))
+
+- fix(deps): update dependency react-hook-form to v7.59.0 ([#284](https://github.com/Commencis/starter-react-vite/pull/284))
+
+- chore(deps): update dependency stylelint to v16.21.0 ([#273](https://github.com/Commencis/starter-react-vite/pull/273))
+
+### Patch Changes
+
+- chore(deps): update node.js to 22.17 ([#278](https://github.com/Commencis/starter-react-vite/pull/278))
+
+- fix(deps): update dependency zod to v3.25.64 ([#264](https://github.com/Commencis/starter-react-vite/pull/264))
+
+- chore(deps): update dependency lint-staged to v16.1.2 ([#266](https://github.com/Commencis/starter-react-vite/pull/266))
+
+- fix(deps): update dependency zod to v3.25.67 ([#270](https://github.com/Commencis/starter-react-vite/pull/270))
+
+- chore(deps): update pnpm to v10.12.3 ([#277](https://github.com/Commencis/starter-react-vite/pull/277))
+
+- chore(deps): update pnpm to v10.12.4 ([#280](https://github.com/Commencis/starter-react-vite/pull/280))
+
+- chore(deps): update dependency @types/node to v22.15.34 ([#281](https://github.com/Commencis/starter-react-vite/pull/281))
+
+- fix(deps): update dependency react-router to v7.6.3 ([#282](https://github.com/Commencis/starter-react-vite/pull/282))
+
+- fix(deps): update dependency react-hook-form to v7.58.1 ([#271](https://github.com/Commencis/starter-react-vite/pull/271))
+
+- chore(deps): update pnpm to v10.12.2 ([#275](https://github.com/Commencis/starter-react-vite/pull/275))
+
+- chore(deps): update dependency @types/react to v19.1.8 ([#260](https://github.com/Commencis/starter-react-vite/pull/260))
+
+- chore(deps): update vitest monorepo to v3.2.4 ([#272](https://github.com/Commencis/starter-react-vite/pull/272))
+
+- chore(deps): update dependency @changesets/cli to v2.29.5 ([#274](https://github.com/Commencis/starter-react-vite/pull/274))
+
+- chore(deps): update dependency @types/node to v22.15.32 ([#269](https://github.com/Commencis/starter-react-vite/pull/269))
+
+- fix(deps): update dependency react-i18next to v15.5.3 ([#263](https://github.com/Commencis/starter-react-vite/pull/263))
+
+- fix(deps): update dependency zod to v3.25.63 ([#262](https://github.com/Commencis/starter-react-vite/pull/262))
+
 ## 2.4.0
 
 ### Minor Changes
