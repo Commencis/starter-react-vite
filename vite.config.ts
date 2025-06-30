@@ -41,7 +41,6 @@ export default ({ mode }): UserConfig => {
     css: {
       preprocessorOptions: {
         scss: {
-          api: 'modern-compiler',
           additionalData: `@use "@/styles/globals" as *;`,
         },
       },
