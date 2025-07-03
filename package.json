@@ -54,7 +54,7 @@
     "@changesets/cli": "2.29.5",
     "@commencis/commitlint-config": "1.1.4",
     "@commencis/eslint-config": "1.7.3",
-    "@commencis/eslint-plugin": "1.4.2",
+    "@commencis/eslint-plugin": "1.4.3",
     "@commencis/lint-staged-config": "1.0.0",
     "@commencis/prettier-config": "2.0.0",
     "@commencis/stylelint-config": "2.1.1",
