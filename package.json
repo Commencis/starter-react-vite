@@ -58,16 +58,10 @@
     "@commencis/lint-staged-config": "1.0.0",
     "@commencis/prettier-config": "2.0.0",
     "@commencis/stylelint-config": "2.1.1",
-    "@storybook/addon-a11y": "8.6.14",
-    "@storybook/addon-actions": "8.6.14",
-    "@storybook/addon-docs": "8.6.14",
-    "@storybook/addon-essentials": "8.6.14",
-    "@storybook/addon-interactions": "8.6.14",
-    "@storybook/addon-links": "8.6.14",
-    "@storybook/blocks": "8.6.14",
-    "@storybook/react": "8.6.14",
-    "@storybook/react-vite": "8.6.14",
-    "@storybook/test": "8.6.14",
+    "@storybook/addon-a11y": "9.0.15",
+    "@storybook/addon-docs": "9.0.15",
+    "@storybook/addon-links": "9.0.15",
+    "@storybook/react-vite": "9.0.15",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.3.0",
@@ -85,19 +79,12 @@
     "msw": "2.10.3",
     "prettier": "3.6.2",
     "sass-embedded": "1.89.2",
-    "storybook": "8.6.14",
+    "storybook": "9.0.15",
     "stylelint": "16.21.1",
     "typescript": "5.8.3",
     "vite": "7.0.2",
     "vite-plugin-svgr": "4.3.0",
     "vitest": "3.2.4"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@swc/core",
-      "esbuild",
-      "msw"
-    ]
   },
   "msw": {
     "workerDirectory": [
