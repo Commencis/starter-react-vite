@@ -48,7 +48,7 @@
     "react-i18next": "15.6.0",
     "react-redux": "9.2.0",
     "react-router": "7.6.3",
-    "zod": "3.25.74"
+    "zod": "3.25.75"
   },
   "devDependencies": {
     "@changesets/cli": "2.29.5",
