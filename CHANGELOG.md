@@ -1,5 +1,91 @@
 # @commencis/starter-react-vite
 
+## 2.5.0
+
+### Minor Changes
+
+- fix(deps): update dependency react-hook-form to v7.60.0 ([#298](https://github.com/Commencis/starter-react-vite/pull/298))
+
+- fix(deps): update dependency axios to v1.10.0 ([#267](https://github.com/Commencis/starter-react-vite/pull/267))
+
+- fix(deps): update dependency i18next to v25.3.0 ([#285](https://github.com/Commencis/starter-react-vite/pull/285))
+
+- chore(deps): update dependency eslint to v9.29.0 ([#265](https://github.com/Commencis/starter-react-vite/pull/265))
+
+- chore(deps): update dependency @types/node to v22.16.0 ([#289](https://github.com/Commencis/starter-react-vite/pull/289))
+
+- feat: upgrade storybook to v9 ([#243](https://github.com/Commencis/starter-react-vite/pull/243))
+
+- fix(deps): update dependency react-hook-form to v7.58.0 ([#268](https://github.com/Commencis/starter-react-vite/pull/268))
+
+- chore(deps): update dependency eslint to v9.30.0 ([#283](https://github.com/Commencis/starter-react-vite/pull/283))
+
+- fix(deps): update dependency react-hook-form to v7.59.0 ([#284](https://github.com/Commencis/starter-react-vite/pull/284))
+
+- fix(deps): update dependency react-i18next to v15.6.0 ([#293](https://github.com/Commencis/starter-react-vite/pull/293))
+
+- chore(deps): update dependency stylelint to v16.21.0 ([#273](https://github.com/Commencis/starter-react-vite/pull/273))
+
+- chore(deps): update dependency vite to v7 ([#279](https://github.com/Commencis/starter-react-vite/pull/279))
+
+### Patch Changes
+
+- chore(deps): update node.js to 22.17 ([#278](https://github.com/Commencis/starter-react-vite/pull/278))
+
+- fix(deps): update dependency zod to v3.25.64 ([#264](https://github.com/Commencis/starter-react-vite/pull/264))
+
+- fix(deps): update dependency zod to v3.25.74 ([#297](https://github.com/Commencis/starter-react-vite/pull/297))
+
+- chore(deps): update dependency lint-staged to v16.1.2 ([#266](https://github.com/Commencis/starter-react-vite/pull/266))
+
+- fix(deps): update dependency zod to v3.25.67 ([#270](https://github.com/Commencis/starter-react-vite/pull/270))
+
+- chore(deps): update dependency msw to v2.10.3 ([#296](https://github.com/Commencis/starter-react-vite/pull/296))
+
+- chore(deps): update dependency zod to v3.25.75 ([#299](https://github.com/Commencis/starter-react-vite/pull/299))
+
+- chore(deps): update dependency stylelint to v16.21.1 ([#291](https://github.com/Commencis/starter-react-vite/pull/291))
+
+- chore(deps): update pnpm to v10.12.3 ([#277](https://github.com/Commencis/starter-react-vite/pull/277))
+
+- fix(deps): update dependency i18next to v25.3.1 ([#295](https://github.com/Commencis/starter-react-vite/pull/295))
+
+- chore(deps): update pnpm to v10.12.4 ([#280](https://github.com/Commencis/starter-react-vite/pull/280))
+
+- chore(deps): update dependency @types/node to v22.15.34 ([#281](https://github.com/Commencis/starter-react-vite/pull/281))
+
+- fix(deps): update dependency react-router to v7.6.3 ([#282](https://github.com/Commencis/starter-react-vite/pull/282))
+
+- fix(deps): update dependency react-hook-form to v7.58.1 ([#271](https://github.com/Commencis/starter-react-vite/pull/271))
+
+- chore(deps): update dependency prettier to v3.6.2 ([#276](https://github.com/Commencis/starter-react-vite/pull/276))
+
+- chore(deps): update pnpm to v10.12.2 ([#275](https://github.com/Commencis/starter-react-vite/pull/275))
+
+- chore(deps): update dependency @types/react to v19.1.8 ([#260](https://github.com/Commencis/starter-react-vite/pull/260))
+
+- fix(deps): update dependency zod to v3.25.71 ([#290](https://github.com/Commencis/starter-react-vite/pull/290))
+
+- chore(deps): update dependency eslint to v9.30.1 ([#288](https://github.com/Commencis/starter-react-vite/pull/288))
+
+- chore(deps): update vitest monorepo to v3.2.4 ([#272](https://github.com/Commencis/starter-react-vite/pull/272))
+
+- chore(deps): update dependency @changesets/cli to v2.29.5 ([#274](https://github.com/Commencis/starter-react-vite/pull/274))
+
+- fix(deps): update dependency zod to v3.25.72 ([#294](https://github.com/Commencis/starter-react-vite/pull/294))
+
+- chore(deps): update dependency vite to v7.0.2 ([#292](https://github.com/Commencis/starter-react-vite/pull/292))
+
+- chore(deps): update dependency @commencis/eslint-config to v1.7.3 ([#286](https://github.com/Commencis/starter-react-vite/pull/286))
+
+- chore(deps): update dependency @commencis/eslint-plugin to v1.4.3 ([#287](https://github.com/Commencis/starter-react-vite/pull/287))
+
+- chore(deps): update dependency @types/node to v22.15.32 ([#269](https://github.com/Commencis/starter-react-vite/pull/269))
+
+- fix(deps): update dependency react-i18next to v15.5.3 ([#263](https://github.com/Commencis/starter-react-vite/pull/263))
+
+- fix(deps): update dependency zod to v3.25.63 ([#262](https://github.com/Commencis/starter-react-vite/pull/262))
+
 ## 2.4.0
 
 ### Minor Changes
@@ -255,7 +341,6 @@
   ## What’s Coming Next?
 
   In the following release, we’ll introduce significant upgrades to keep the starter template up to date with the latest ecosystem advancements:
-
   - React 19 – Upgrading to the latest React version for improved performance, new features, and better developer experience.
   - React Router 7 – Implementing the latest version with updated APIs and optimizations for modern routing.
   - i18n v24 – Enhancing internationalization support with the newest improvements.
@@ -358,7 +443,6 @@
 - add css normalizer ([#85](https://github.com/Commencis/starter-react-vite/pull/85))
 
 - update dependencies: ([#57](https://github.com/Commencis/starter-react-vite/pull/57))
-
   - @types/react to v18.3.17
   - @types/react-dom to v18.3.5
 
@@ -425,7 +509,6 @@
 - update dependency: @commencis/eslint-config@1.5.1 ([#37](https://github.com/Commencis/starter-react-vite/pull/37))
 
 - update dependency: @vitejs/plugin-react-swc@3.7.2 ([#54](https://github.com/Commencis/starter-react-vite/pull/54))
-
   - adds vite@6 support
 
 - update dependency: msw@2.6.8 ([#55](https://github.com/Commencis/starter-react-vite/pull/55))
@@ -433,7 +516,6 @@
 - update dependency: husky@9.1.7 ([#43](https://github.com/Commencis/starter-react-vite/pull/43))
 
 - update dependency: storybook@8.4.7 ([#50](https://github.com/Commencis/starter-react-vite/pull/50))
-
   - adds vite@6 support
 
 - update dependency: @commencis/commitlint-config@1.1.1 ([#49](https://github.com/Commencis/starter-react-vite/pull/49))
@@ -445,7 +527,6 @@
 - update dependency: @commencis/eslint-plugin@1.2.0 ([#38](https://github.com/Commencis/starter-react-vite/pull/38))
 
 - update dependencies: ([#47](https://github.com/Commencis/starter-react-vite/pull/47))
-
   - vitest@2.1.8
   - @vitest/coverage-v8@2.1.8
 
@@ -476,7 +557,6 @@
 - update dependency: @commencis/eslint-plugin@1.1.3 ([#21](https://github.com/Commencis/starter-react-vite/pull/21))
 
 - update dependency: msw@2.6.2 ([#25](https://github.com/Commencis/starter-react-vite/pull/25))
-
   - also fixes cookie vulnerabilities
 
 - fix: ImportMeta types ([#22](https://github.com/Commencis/starter-react-vite/pull/22))
