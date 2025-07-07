@@ -2,4 +2,4 @@
 '@commencis/starter-react-vite': minor
 ---
 
-feat: upgrate storybook to v9
+feat: upgrade storybook to v9
