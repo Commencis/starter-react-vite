@@ -1,5 +1,35 @@
 # @commencis/starter-react-vite
 
+## 2.5.1
+
+### Patch Changes
+
+- chore(deps): update dependency vite to v7.0.3 ([#302](https://github.com/Commencis/starter-react-vite/pull/302))
+
+- chore(deps): update dependency vite to v7.0.4 ([#308](https://github.com/Commencis/starter-react-vite/pull/308))
+
+- chore(deps): update dependency @types/node to v22.16.3 ([#309](https://github.com/Commencis/starter-react-vite/pull/309))
+
+- chore(deps): update pnpm to v10.13.1 ([#310](https://github.com/Commencis/starter-react-vite/pull/310))
+
+- chore(deps): update dependency @types/node to v22.16.4 ([#314](https://github.com/Commencis/starter-react-vite/pull/314))
+
+- chore(deps): update dependency msw to v2.10.4 ([#312](https://github.com/Commencis/starter-react-vite/pull/312))
+
+- chore(deps): update dependency eslint to v9.31.0 ([#313](https://github.com/Commencis/starter-react-vite/pull/313))
+
+- chore(deps): update dependency vite to v7.0.5 ([#315](https://github.com/Commencis/starter-react-vite/pull/315))
+
+- fix(deps): update dependency zod to v4 ([#311](https://github.com/Commencis/starter-react-vite/pull/311))
+
+- fix(deps): update dependency i18next to v25.3.2 ([#303](https://github.com/Commencis/starter-react-vite/pull/303))
+
+- fix(deps): update dependency zod to v3.25.76 ([#306](https://github.com/Commencis/starter-react-vite/pull/306))
+
+- chore(deps): update dependency @types/node to v22.16.2 ([#301](https://github.com/Commencis/starter-react-vite/pull/301))
+
+- chore(deps): update storybook monorepo to v9.0.16 ([#305](https://github.com/Commencis/starter-react-vite/pull/305))
+
 ## 2.5.0
 
 ### Minor Changes
