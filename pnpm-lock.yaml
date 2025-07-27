@@ -39,8 +39,8 @@ importers:
         specifier: 9.2.0
         version: 9.2.0(@types/react@19.1.8)(react@19.1.0)(redux@5.0.1)
       react-router:
-        specifier: 7.7.0
-        version: 7.7.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 7.7.1
+        version: 7.7.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       zod:
         specifier: 4.0.5
         version: 4.0.5
@@ -3157,8 +3157,8 @@ packages:
       redux:
         optional: true
 
-  react-router@7.7.0:
-    resolution: {integrity: sha512-3FUYSwlvB/5wRJVTL/aavqHmfUKe0+Xm9MllkYgGo9eDwNdkvwlJGjpPxono1kCycLt6AnDTgjmXvK3/B4QGuw==}
+  react-router@7.7.1:
+    resolution: {integrity: sha512-jVKHXoWRIsD/qS6lvGveckwb862EekvapdHJN/cGmzw40KnJH5gg53ujOJ4qX6EKIK9LSBfFed/xiQ5yeXNrUA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -7313,7 +7313,7 @@ snapshots:
       '@types/react': 19.1.8
       redux: 5.0.1
 
-  react-router@7.7.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  react-router@7.7.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       cookie: 1.0.2
       react: 19.1.0
