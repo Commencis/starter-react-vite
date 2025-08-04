@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "engines": {
-    "node": ">=22.16"
+    "node": ">=22.18"
   },
   "packageManager": "pnpm@10.14.0",
   "scripts": {
