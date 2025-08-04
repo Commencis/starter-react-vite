@@ -50,7 +50,7 @@ Commencis Starter - React Vite provides a streamlined foundation for building mo
 
 #### Node.js
 
-Before you begin, ensure you have `node: >= 22.16` installed on your system.
+Before you begin, ensure you have `node: >= 22.18` installed on your system.
 
 #### pnpm
 
