@@ -1,5 +1,93 @@
 # @commencis/starter-react-vite
 
+## 2.6.0
+
+### Minor Changes
+
+- chore(deps): update dependency eslint to v9.32.0 ([#328](https://github.com/Commencis/starter-react-vite/pull/328))
+
+- chore(deps): update dependency stylelint to v16.23.0 ([#333](https://github.com/Commencis/starter-react-vite/pull/333))
+
+- chore(deps): update dependency @types/node to v22.17.0 ([#332](https://github.com/Commencis/starter-react-vite/pull/332))
+
+- fix(deps): update dependency react-router to v7.7.0 ([#320](https://github.com/Commencis/starter-react-vite/pull/320))
+
+- chore(deps): update dependency typescript to v5.9.2 ([#342](https://github.com/Commencis/starter-react-vite/pull/342))
+
+- chore(deps): update storybook monorepo to v9.1.0 ([#339](https://github.com/Commencis/starter-react-vite/pull/339))
+
+### Patch Changes
+
+- chore(deps): update node.js to 22.18 ([#340](https://github.com/Commencis/starter-react-vite/pull/340))
+
+- chore(deps): update dependency vite to v7.0.3 ([#302](https://github.com/Commencis/starter-react-vite/pull/302))
+
+- chore(deps): update storybook monorepo to v9.0.18 ([#322](https://github.com/Commencis/starter-react-vite/pull/322))
+
+- chore(deps): update pnpm to v10.14.0 ([#336](https://github.com/Commencis/starter-react-vite/pull/336))
+
+- chore(deps): update dependency vite to v7.0.4 ([#308](https://github.com/Commencis/starter-react-vite/pull/308))
+
+- chore(deps): update dependency @types/node to v22.16.3 ([#309](https://github.com/Commencis/starter-react-vite/pull/309))
+
+- fix(deps): update dependency react-router to v7.7.1 ([#326](https://github.com/Commencis/starter-react-vite/pull/326))
+
+- chore(deps): update dependency @testing-library/jest-dom to v6.6.4 ([#330](https://github.com/Commencis/starter-react-vite/pull/330))
+
+- fix(deps): update dependency react-hook-form to v7.62.0 ([#337](https://github.com/Commencis/starter-react-vite/pull/337))
+
+- chore(deps): lock file maintenance ([#344](https://github.com/Commencis/starter-react-vite/pull/344))
+
+- chore(deps): update pnpm to v10.13.1 ([#310](https://github.com/Commencis/starter-react-vite/pull/310))
+
+- chore(deps): update dependency @types/node to v22.16.4 ([#314](https://github.com/Commencis/starter-react-vite/pull/314))
+
+- chore(deps): update dependency msw to v2.10.4 ([#312](https://github.com/Commencis/starter-react-vite/pull/312))
+
+- fix(deps): update react monorepo ([#331](https://github.com/Commencis/starter-react-vite/pull/331))
+
+- chore(deps): update dependency eslint to v9.31.0 ([#313](https://github.com/Commencis/starter-react-vite/pull/313))
+
+- chore(deps): update dependency vite to v7.0.5 ([#315](https://github.com/Commencis/starter-react-vite/pull/315))
+
+- chore(deps): update dependency @vitejs/plugin-react-swc to v3.11.0 ([#318](https://github.com/Commencis/starter-react-vite/pull/318))
+
+- fix(deps): update dependency zod to v4.0.14 ([#334](https://github.com/Commencis/starter-react-vite/pull/334))
+
+- chore(deps): update dependency stylelint to v16.22.0 ([#319](https://github.com/Commencis/starter-react-vite/pull/319))
+
+- chore(deps): update storybook monorepo to v9.1.1 ([#341](https://github.com/Commencis/starter-react-vite/pull/341))
+
+- chore(deps): update dependency lint-staged to v16.1.4 ([#338](https://github.com/Commencis/starter-react-vite/pull/338))
+
+- fix(deps): update dependency zod to v4 ([#311](https://github.com/Commencis/starter-react-vite/pull/311))
+
+- fix(deps): update dependency i18next to v25.3.2 ([#303](https://github.com/Commencis/starter-react-vite/pull/303))
+
+- fix(deps): update dependency zod to v3.25.76 ([#306](https://github.com/Commencis/starter-react-vite/pull/306))
+
+- fix(deps): update dependency axios to v1.11.0 [security] ([#321](https://github.com/Commencis/starter-react-vite/pull/321))
+
+- fix(deps): update dependency react-i18next to v15.6.1 ([#323](https://github.com/Commencis/starter-react-vite/pull/323))
+
+- chore(deps): update dependency @types/node to v22.16.5 ([#317](https://github.com/Commencis/starter-react-vite/pull/317))
+
+- fix(deps): update dependency @hookform/resolvers to v5.2.0 ([#329](https://github.com/Commencis/starter-react-vite/pull/329))
+
+- chore(deps): update storybook monorepo to v9.0.17 ([#316](https://github.com/Commencis/starter-react-vite/pull/316))
+
+- chore(deps): update dependency vite to v7.0.6 ([#324](https://github.com/Commencis/starter-react-vite/pull/324))
+
+- chore(deps): update dependency @types/node to v22.16.2 ([#301](https://github.com/Commencis/starter-react-vite/pull/301))
+
+- fix(deps): update dependency @hookform/resolvers to v5.2.1 ([#335](https://github.com/Commencis/starter-react-vite/pull/335))
+
+- fix(deps): update dependency react-hook-form to v7.61.1 ([#325](https://github.com/Commencis/starter-react-vite/pull/325))
+
+- fix(deps): update dependency zod to v4.0.10 ([#327](https://github.com/Commencis/starter-react-vite/pull/327))
+
+- chore(deps): update storybook monorepo to v9.0.16 ([#305](https://github.com/Commencis/starter-react-vite/pull/305))
+
 ## 2.5.0
 
 ### Minor Changes
