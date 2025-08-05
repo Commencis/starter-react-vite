@@ -25,7 +25,7 @@ Commencis Starter - React Vite provides a streamlined foundation for building mo
 
 ## Tech Stack
 
-- ⚡️ Vite 6
+- ⚡️ Vite 7
 - 🌀 React 19
 - 🎨 SCSS Modules / Abstractions
 - ⚙️ Environment / Config Management
@@ -39,7 +39,7 @@ Commencis Starter - React Vite provides a streamlined foundation for building mo
 - 🔍 Vitest
 - 🚦 Mock Service Worker
 - 📚 Storybook
-- 🖥️ Node 20
+- 🖥️ Node 22
 - 📦 PNPM
 - ✨ Commencis JS Toolkit Integrations:
   - ESLint, Prettier, Stylelint, Commitlint, Lint-Staged
