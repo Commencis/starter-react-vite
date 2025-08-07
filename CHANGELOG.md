@@ -1,5 +1,17 @@
 # @commencis/starter-react-vite
 
+## 2.6.1
+
+### Patch Changes
+
+- chore(deps): update dependency sass-embedded to v1.90.0 ([#348](https://github.com/Commencis/starter-react-vite/pull/348))
+
+- fix(deps): update dependency zod to v4.0.15 ([#347](https://github.com/Commencis/starter-react-vite/pull/347))
+
+- chore(deps): update dependency @commencis/eslint-config to v1.7.4 ([#345](https://github.com/Commencis/starter-react-vite/pull/345))
+
+- chore(deps): update dependency @commencis/eslint-plugin to v1.4.4 ([#346](https://github.com/Commencis/starter-react-vite/pull/346))
+
 ## 2.6.0
 
 ### Minor Changes
