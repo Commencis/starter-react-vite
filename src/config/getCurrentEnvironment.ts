@@ -1,5 +1,5 @@
+import type { Environment } from '@/types';
 import { ENVIRONMENTS } from '@/constants';
-import { Environment } from '@/types';
 
 export const getCurrentEnvironment = (): Environment => {
   const env = import.meta.env.MODE as Environment;

@@ -1,4 +1,4 @@
-import { Locale, LocalizationNamespace } from '@/types';
+import type { Locale, LocalizationNamespace } from '@/types';
 
 export const LOCALIZATION_NAMESPACE = Object.freeze({
   COMMON: 'common',

@@ -1,6 +1,6 @@
-import { PropsWithChildren } from 'react';
+import type { PropsWithChildren } from 'react';
 
-import { Locale, Theme } from '@/types';
+import type { Locale, Theme } from '@/types';
 
 export type Preferences = {
   locale: Locale;

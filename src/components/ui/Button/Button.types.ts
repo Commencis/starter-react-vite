@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes } from 'react';
+import type { ButtonHTMLAttributes } from 'react';
 
 export type ButtonSize = 'small' | 'medium' | 'large';
 export type ButtonType = 'filled' | 'outlined' | 'text';

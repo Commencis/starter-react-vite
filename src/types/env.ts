@@ -1,5 +1,5 @@
-import { ENVIRONMENT } from '@/constants';
+import type { ENVIRONMENT } from '@/constants';
 
-import { ObjectValues } from './generic';
+import type { ObjectValues } from './generic';
 
 export type Environment = ObjectValues<typeof ENVIRONMENT>;

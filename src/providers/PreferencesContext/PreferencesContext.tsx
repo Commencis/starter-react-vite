@@ -1,8 +1,9 @@
-import { createContext, ReactElement, use, useState } from 'react';
+import type { ReactElement } from 'react';
+import { createContext, use, useState } from 'react';
 
 import { DEFAULT_LOCALE, DEFAULT_THEME } from '@/constants';
 
-import {
+import type {
   Preferences,
   PreferencesContextType,
   PreferencesProviderProps,

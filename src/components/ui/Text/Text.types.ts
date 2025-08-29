@@ -1,6 +1,6 @@
-import { JSX } from 'react';
+import type { JSX } from 'react';
 
-import { ColorPalette } from '@/types';
+import type { ColorPalette } from '@/types';
 
 type Color = {
   [K in keyof ColorPalette]: `${K}-${Extract<keyof ColorPalette[K], string | number>}`;

@@ -1,9 +1,5 @@
-import {
-  Action,
-  combineSlices,
-  configureStore,
-  ThunkAction,
-} from '@reduxjs/toolkit';
+import type { Action, ThunkAction } from '@reduxjs/toolkit';
+import { combineSlices, configureStore } from '@reduxjs/toolkit';
 import { setupListeners } from '@reduxjs/toolkit/query';
 
 import { authSlice } from './slices/auth/auth.slice';

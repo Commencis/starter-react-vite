@@ -1,8 +1,9 @@
-import { ReactElement, Suspense, useMemo } from 'react';
+import type { ReactElement } from 'react';
+import { Suspense, useMemo } from 'react';
 
-import { SVGComponentProps } from '@/types';
+import type { SVGComponentProps } from '@/types';
 
-import { IconName, IconSize } from './Icon.types';
+import type { IconName, IconSize } from './Icon.types';
 import { lazyLoadIcon } from './Icon.utils';
 
 export type IconProps = {
