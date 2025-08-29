@@ -55,8 +55,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0(@typescript-eslint/parser@8.40.0(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.33.0(jiti@2.5.1))(prettier@3.6.2)(typescript@5.9.2)(vue-eslint-parser@10.2.0(eslint@9.33.0(jiti@2.5.1)))
       '@commencis/eslint-plugin':
-        specifier: 1.4.5
-        version: 1.4.5(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2)
+        specifier: 1.5.0
+        version: 1.5.0(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2)
       '@commencis/lint-staged-config':
         specifier: 1.1.0
         version: 1.1.0
@@ -313,8 +313,8 @@ packages:
     peerDependencies:
       eslint: '>= 9.7'
 
-  '@commencis/eslint-plugin@1.4.5':
-    resolution: {integrity: sha512-DB3Ye8a0xIuqAx79HKZH4nWXdFm94IGyq0V75ufrhWG2cZbk5lYD3sebEJheJeDl1nX5JpAvxd2wabW3voLLMA==}
+  '@commencis/eslint-plugin@1.5.0':
+    resolution: {integrity: sha512-KOnEhK6HlJt00fxkvKBlbtgCVDzrKbM8oyHhH7xCC9a8/wRjnD1PEu59N1G2UvqqwuNQ+KKkJ3vDdSuEmRatXw==}
 
   '@commencis/lint-staged-config@1.1.0':
     resolution: {integrity: sha512-RF+fzct2nnA8+fkupQXe7iCF3rkBbHAHReoeagMEAHxVuPVfIlJKTpI3eJGp8y56LLQs59mKYADedw2ZHmmXAg==}
@@ -4487,7 +4487,7 @@ snapshots:
       - typescript
       - vue-eslint-parser
 
-  '@commencis/eslint-plugin@1.4.5(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2)':
+  '@commencis/eslint-plugin@1.5.0(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2)':
     dependencies:
       '@typescript-eslint/utils': 8.40.0(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2)
     transitivePeerDependencies:
