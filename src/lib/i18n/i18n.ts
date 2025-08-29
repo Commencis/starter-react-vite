@@ -1,4 +1,5 @@
-import { createInstance, i18n as i18nType } from 'i18next';
+import type { i18n as i18nType } from 'i18next';
+import { createInstance } from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 import { getConfig } from '@/config';

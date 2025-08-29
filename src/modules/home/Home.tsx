@@ -2,9 +2,9 @@ import { type ReactElement } from 'react';
 
 import { useTranslation } from 'react-i18next';
 
-import { useConfig } from '@/hooks';
-
 import { Button, Icon, Text } from '@/components/ui';
+
+import { useConfig } from '@/hooks';
 
 export function Home(): ReactElement {
   const { version } = useConfig();

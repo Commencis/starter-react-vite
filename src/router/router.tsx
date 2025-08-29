@@ -1,13 +1,10 @@
-import {
-  createBrowserRouter,
-  LazyRouteFunction,
-  RouteObject,
-} from 'react-router';
+import type { LazyRouteFunction, RouteObject } from 'react-router';
+import { createBrowserRouter } from 'react-router';
 
 import { ROUTES } from '@/constants';
 
-import { Loading } from '@/components/common';
 import { NotFoundPage } from '@/pages/not-found/not-found.page';
+import { Loading } from '@/components/common';
 
 import { PrivateRoute } from './PrivateRoute/PrivateRoute';
 

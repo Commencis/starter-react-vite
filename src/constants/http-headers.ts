@@ -1,4 +1,4 @@
-import { HttpHeader } from '@/types';
+import type { HttpHeader } from '@/types';
 
 export const HEADER_KEY = {
   ACCEPT: 'Accept',

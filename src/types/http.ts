@@ -1,8 +1,8 @@
-import { AxiosHeaderValue } from 'axios';
+import type { AxiosHeaderValue } from 'axios';
 
-import { HEADER_KEY } from '@/constants';
+import type { HEADER_KEY } from '@/constants';
 
-import { ObjectValues } from './generic';
+import type { ObjectValues } from './generic';
 
 export type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
 

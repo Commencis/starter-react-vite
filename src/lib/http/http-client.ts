@@ -1,16 +1,17 @@
 /* eslint-disable no-console */
 
-import axios, {
+import type {
   AxiosInstance,
   AxiosRequestConfig,
   AxiosResponse,
   CreateAxiosDefaults,
   InternalAxiosRequestConfig,
 } from 'axios';
+import axios from 'axios';
 
 import { getConfig } from '@/config';
+import type { HttpHeader, HttpMethod } from '@/types';
 import { HEADER_KEY, HEADERS } from '@/constants';
-import { HttpHeader, HttpMethod } from '@/types';
 
 const { baseApiUrl, isDevelopment } = getConfig();
 

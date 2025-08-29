@@ -1,8 +1,8 @@
 import { type FunctionComponent, lazy, type LazyExoticComponent } from 'react';
 
-import { SVGComponentProps } from '@/types';
+import type { SVGComponentProps } from '@/types';
 
-import { IconName } from './Icon.types';
+import type { IconName } from './Icon.types';
 
 export type LazyLoadIconReturnType = LazyExoticComponent<
   FunctionComponent<SVGComponentProps>
