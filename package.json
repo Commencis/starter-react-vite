@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=22.20"
   },
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.18.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "vite",
@@ -80,9 +80,9 @@
     "prettier": "3.6.2",
     "sass-embedded": "1.93.2",
     "storybook": "9.1.10",
-    "stylelint": "16.24.0",
+    "stylelint": "16.25.0",
     "typescript": "5.9.3",
-    "vite": "7.1.8",
+    "vite": "7.1.9",
     "vite-plugin-svgr": "4.5.0",
     "vitest": "3.2.4"
   },
