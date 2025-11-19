@@ -41,7 +41,7 @@
     "@reduxjs/toolkit": "2.9.0",
     "axios": "1.12.2",
     "clsx": "2.1.1",
-    "i18next": "25.5.3",
+    "i18next": "25.6.3",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-hook-form": "7.63.0",
