@@ -39,7 +39,7 @@ Commencis Starter - React Vite provides a streamlined foundation for building mo
 - 🔍 Vitest
 - 🚦 Mock Service Worker
 - 📚 Storybook
-- 🖥️ Node 22
+- 🖥️ Node 24
 - 📦 PNPM
 - ✨ Commencis JS Toolkit Integrations:
   - ESLint, Prettier, Stylelint, Commitlint, Lint-Staged
@@ -50,7 +50,7 @@ Commencis Starter - React Vite provides a streamlined foundation for building mo
 
 #### Node.js
 
-Before you begin, ensure you have `node: >= 22.20` installed on your system.
+Before you begin, ensure you have `node: >= 24.11` installed on your system.
 
 #### pnpm
 
