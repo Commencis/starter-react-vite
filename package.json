@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=24.11"
   },
-  "packageManager": "pnpm@10.25.0",
+  "packageManager": "pnpm@10.27.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "vite",
