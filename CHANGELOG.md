@@ -1,5 +1,19 @@
 # @commencis/starter-react-vite
 
+## 2.8.0
+
+### Minor Changes
+
+- chore: update dependencies and re-create lock file ([#434](https://github.com/Commencis/starter-react-vite/pull/434))
+
+- chore: update dependencies ([#443](https://github.com/Commencis/starter-react-vite/pull/443))
+
+- chore: update dependencies ([#425](https://github.com/Commencis/starter-react-vite/pull/425))
+
+### Patch Changes
+
+- chore(deps): update dependency msw to v2.11.2 ([#412](https://github.com/Commencis/starter-react-vite/pull/412))
+
 ## 2.7.0
 
 ### Minor Changes
