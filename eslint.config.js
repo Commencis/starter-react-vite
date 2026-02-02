@@ -1,5 +1,4 @@
-import { commencisReactConfig, defineConfig } from '@commencis/eslint-config';
+import { reactConfig } from '@commencis/eslint-config';
+import { defineConfig } from 'eslint/config';
 
-export default defineConfig(...commencisReactConfig, {
-  ignores: ['dist', 'storybook-static'],
-});
+export default defineConfig(reactConfig);
