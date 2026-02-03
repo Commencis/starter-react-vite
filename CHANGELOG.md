@@ -1,5 +1,15 @@
 # @commencis/starter-react-vite
 
+## 2.9.0
+
+### Minor Changes
+
+- fix: update font-face mixins to use correct url structure ([#447](https://github.com/Commencis/starter-react-vite/pull/447))
+
+### Patch Changes
+
+- feat: add @parcel/watcher into allowed build scripts ([#444](https://github.com/Commencis/starter-react-vite/pull/444))
+
 ## 2.8.0
 
 ### Minor Changes
