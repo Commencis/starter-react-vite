@@ -1,5 +1,11 @@
 # @commencis/starter-react-vite
 
+## 2.10.0
+
+### Minor Changes
+
+- chore: update dependencies ([#451](https://github.com/Commencis/starter-react-vite/pull/451))
+
 ## 2.9.0
 
 ### Minor Changes
