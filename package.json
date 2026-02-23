@@ -72,7 +72,7 @@
     "@vitejs/plugin-react-swc": "4.2.3",
     "@vitest/coverage-v8": "4.0.18",
     "commitlint": "20.4.2",
-    "eslint": "9.39.3",
+    "eslint": "10.0.2",
     "husky": "9.1.7",
     "jsdom": "28.1.0",
     "lint-staged": "16.2.7",
