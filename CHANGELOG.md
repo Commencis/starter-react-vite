@@ -1,5 +1,19 @@
 # @commencis/starter-react-vite
 
+## 2.10.1
+
+### Patch Changes
+
+- chore(deps): update node.js to 24.15 ([#455](https://github.com/Commencis/starter-react-vite/pull/455))
+
+- fix(deps): update all non-major dependencies ([#467](https://github.com/Commencis/starter-react-vite/pull/467))
+
+- chore(deps): update dependency vite to v7.3.3 ([#470](https://github.com/Commencis/starter-react-vite/pull/470))
+
+- fix(deps): update all non-major dependencies ([#457](https://github.com/Commencis/starter-react-vite/pull/457))
+
+- chore(deps): update dependency vite to v7.3.2 [security] ([#463](https://github.com/Commencis/starter-react-vite/pull/463))
+
 ## 2.10.0
 
 ### Minor Changes
