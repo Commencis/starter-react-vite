@@ -3,19 +3,13 @@ import type { JSX } from 'react';
 import type { ColorPalette } from '@/types';
 
 type Color = {
-  [K in keyof ColorPalette]: `${K}-${Extract<keyof ColorPalette[K], string | number>}`;
+  [
+    K in keyof ColorPalette
+  ]: `${K}-${Extract<keyof ColorPalette[K], string | number>}`;
 }[keyof ColorPalette];
 
 type AllowedTextTags =
-  | 'p'
-  | 'span'
-  | 'strong'
-  | 'h1'
-  | 'h2'
-  | 'h3'
-  | 'h4'
-  | 'h5'
-  | 'h6';
+  'p' | 'span' | 'strong' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
 export type TextVariant =
   | 'bodyMedium'
