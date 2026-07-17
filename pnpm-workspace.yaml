@@ -3,6 +3,7 @@ engineStrict: true
 dedupePeers: true
 saveExact: true
 strictDepBuilds: true
+minimumReleaseAge: 2880 # 48 Hours (in minutes)
 allowBuilds:
   '@parcel/watcher': true
   '@swc/core': true
