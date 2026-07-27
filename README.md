@@ -54,10 +54,10 @@ Before you begin, ensure you have `node: >= 24.18` installed on your system.
 
 #### pnpm
 
-This project uses `pnpm@10.28.2` as the package manager. You can install it either by activating with `corepack` which is the recommended way:
+This project uses `pnpm@11.17.0` as the package manager. You can install it either by activating with `corepack` which is the recommended way:
 
 ```bash
-corepack prepare pnpm@10.28.2 --activate
+corepack prepare pnpm@11.17.0 --activate
 corepack enable pnpm
 ```
 
