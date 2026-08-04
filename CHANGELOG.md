@@ -1,5 +1,51 @@
 # @commencis/starter-react-vite
 
+## 2.11.0
+
+### Minor Changes
+
+- fix(deps): update dependency react-i18next to v17 ([#473](https://github.com/Commencis/starter-react-vite/pull/473))
+
+- fix(deps): update dependency i18next to v26 ([#462](https://github.com/Commencis/starter-react-vite/pull/462))
+
+- chore(deps): update dependency jsdom to v29 ([#458](https://github.com/Commencis/starter-react-vite/pull/458))
+
+- fix(deps): update all non-major dependencies ([#475](https://github.com/Commencis/starter-react-vite/pull/475))
+
+- fix(deps): update all non-major dependencies ([#488](https://github.com/Commencis/starter-react-vite/pull/488))
+
+- chore(deps): update actions/checkout action to v7 ([#485](https://github.com/Commencis/starter-react-vite/pull/485))
+
+### Patch Changes
+
+- chore(deps): update update pnpm version to v10.34.4 ([#478](https://github.com/Commencis/starter-react-vite/pull/478))
+
+- chore(deps): update node.js to 24.15 ([#455](https://github.com/Commencis/starter-react-vite/pull/455))
+
+- fix(deps): update all non-major dependencies ([#467](https://github.com/Commencis/starter-react-vite/pull/467))
+
+- chore(deps): update dependency vite to v7.3.5 [security] ([#480](https://github.com/Commencis/starter-react-vite/pull/480))
+
+- chore: set minimumReleaseAge to 2880 minutes in pnpm-workspace.yaml ([#482](https://github.com/Commencis/starter-react-vite/pull/482))
+
+- fix(deps): update dependency react-router to v8.3.0 [security] ([#486](https://github.com/Commencis/starter-react-vite/pull/486))
+
+- chore(deps): update dependency vite to v7.3.3 ([#470](https://github.com/Commencis/starter-react-vite/pull/470))
+
+- chore(deps): update pnpm to v11.17.0 ([#484](https://github.com/Commencis/starter-react-vite/pull/484))
+
+- fix(deps): update dependency axios to v1.16.0 [security] ([#477](https://github.com/Commencis/starter-react-vite/pull/477))
+
+- fix(deps): update all non-major dependencies ([#483](https://github.com/Commencis/starter-react-vite/pull/483))
+
+- fix(deps): update all non-major dependencies ([#457](https://github.com/Commencis/starter-react-vite/pull/457))
+
+- chore(deps): update dependency vite to v7.3.2 [security] ([#463](https://github.com/Commencis/starter-react-vite/pull/463))
+
+- chore(deps): update dependency commitlint to v21 ([#468](https://github.com/Commencis/starter-react-vite/pull/468))
+
+- chore(deps): update all non-major dependencies ([#471](https://github.com/Commencis/starter-react-vite/pull/471))
+
 ## 2.10.0
 
 ### Minor Changes
