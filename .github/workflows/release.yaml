@@ -31,7 +31,7 @@ jobs:
         run: pnpm run build
 
       - name: Create Release Pull Request
-        uses: changesets/action@v1
+        uses: changesets/action@v2.1.2
         with:
           title: 'ci(release): create new release'
           commit: 'ci(release): create new release'
