@@ -9,3 +9,6 @@ allowBuilds:
   '@swc/core': true
   esbuild: true
   msw: true
+minimumReleaseAgeExclude:
+  # Renovate security update: vite@7.3.7
+  - vite@7.3.7
