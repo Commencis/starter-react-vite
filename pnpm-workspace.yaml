@@ -14,3 +14,5 @@ minimumReleaseAgeExclude:
   - storybook@10.6.2
   # Renovate security update: vite@7.3.7
   - vite@7.3.7
+  # Renovate security update: vitest@4.1.11
+  - vitest@4.1.11
