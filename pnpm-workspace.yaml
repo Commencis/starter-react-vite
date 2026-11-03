@@ -1,4 +1,3 @@
-nodeVersion: 24.18.0
 engineStrict: true
 dedupePeers: true
 saveExact: true
