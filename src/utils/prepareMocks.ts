@@ -4,5 +4,5 @@ export async function prepareMocks(isDevelopment: boolean): Promise<void> {
   }
 
   const { worker } = await import('@/lib/mocks/browser');
-  worker.start({ onUnhandledRequest: 'bypass' });
+  worker.start({ onUnhandledFrame: 'bypass' });
 }
