@@ -69,8 +69,8 @@
     "@types/node": "24.19.2",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
-    "@vitejs/plugin-react-swc": "4.3.3",
-    "@vitest/coverage-v8": "4.1.12",
+    "@vitejs/plugin-react": "6.1.2",
+    "@vitest/coverage-v8": "5.0.5",
     "commitlint": "21.2.4",
     "eslint": "9.39.5",
     "husky": "9.1.7",
@@ -82,9 +82,9 @@
     "storybook": "10.6.2",
     "stylelint": "17.16.0",
     "typescript": "5.9.3",
-    "vite": "7.3.7",
+    "vite": "8.3.5",
     "vite-plugin-svgr": "5.2.0",
-    "vitest": "4.1.11"
+    "vitest": "5.0.5"
   },
   "msw": {
     "workerDirectory": [
