@@ -37,7 +37,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@hookform/resolvers": "5.9.2",
+    "@hookform/resolvers": "7.0.0",
     "@reduxjs/toolkit": "2.13.0",
     "axios": "1.21.0",
     "clsx": "2.1.1",
