@@ -63,7 +63,7 @@
     "@storybook/addon-links": "10.6.5",
     "@storybook/react-vite": "10.6.5",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
-    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/jest-dom": "7.0.1",
     "@testing-library/react": "16.3.3",
     "@testing-library/user-event": "14.6.8",
     "@types/node": "24.19.2",
