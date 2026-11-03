@@ -54,11 +54,10 @@ Before you begin, ensure you have a Node.js version that satisfies the `engines.
 
 #### pnpm
 
-This project uses `pnpm@11.17.0` as the package manager. You can install it either by activating with `corepack` which is the recommended way:
+This project uses pnpm as the package manager. You can install it either by activating with `corepack` which is the recommended way:
 
 ```bash
-corepack prepare pnpm@11.17.0 --activate
-corepack enable pnpm
+corepack enable
 ```
 
 or install globally on your system with npm.
